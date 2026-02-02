@@ -1,0 +1,112 @@
+{
+  "accuracy_summary": {
+    "overall_accuracy": 0.9492257832193014,
+    "rank_method_accuracy": 0.9448717948717948,
+    "percent_method_accuracy": 0.9509263895843766,
+    "classification_report": {
+      "False": {
+        "precision": 0.980682285244554,
+        "recall": 0.9620967741935483,
+        "f1-score": 0.9713006309790352,
+        "support": 2480.0
+      },
+      "True": {
+        "precision": 0.7267441860465116,
+        "recall": 0.8417508417508418,
+        "f1-score": 0.7800312012480499,
+        "support": 297.0
+      },
+      "accuracy": 0.9492257832193014,
+      "macro avg": {
+        "precision": 0.8537132356455328,
+        "recall": 0.9019238079721951,
+        "f1-score": 0.8756659161135425,
+        "support": 2777.0
+      },
+      "weighted avg": {
+        "precision": 0.9535236192518214,
+        "recall": 0.9492257832193014,
+        "f1-score": 0.9508443758007483,
+        "support": 2777.0
+      }
+    }
+  },
+  "influence_summary": {
+    "fan_vote_correlation": -0.501703225330982,
+    "judge_score_correlation": -0.3997390306453417,
+    "fan_influence_ratio": 0.556556143230276,
+    "fan_correlation_count": 11,
+    "judge_correlation_count": 11
+  },
+  "controversial_cases_count": 0,
+  "controversial_cases_sample": [],
+  "specific_case_analyses": [
+    {
+      "Case": "Jerry Rice",
+      "Seasons": [
+        "2"
+      ],
+      "Avg_Judge_Score": 180.16660000000002,
+      "Avg_Fan_Vote": 0.2896027748276201,
+      "Judge_Rank_Percentile": 0.5625,
+      "Fan_Rank_Percentile": 0.5625,
+      "Survival_Weeks": 8,
+      "Final_Result": "Safe"
+    },
+    {
+      "Case": "Billy Ray Cyrus",
+      "Seasons": [
+        "4"
+      ],
+      "Avg_Judge_Score": 152.0,
+      "Avg_Fan_Vote": 0.18557200208570157,
+      "Judge_Rank_Percentile": 0.5625,
+      "Fan_Rank_Percentile": 0.5625,
+      "Survival_Weeks": 8,
+      "Final_Result": "Eliminated"
+    },
+    {
+      "Case": "Bristol Palin",
+      "Seasons": [
+        "11",
+        "15"
+      ],
+      "Avg_Judge_Score": 189.97600000000003,
+      "Avg_Fan_Vote": 0.1365113359968843,
+      "Judge_Rank_Percentile": 0.5357142857142858,
+      "Fan_Rank_Percentile": 0.5357142857142857,
+      "Survival_Weeks": 14,
+      "Final_Result": "Eliminated"
+    },
+    {
+      "Case": "Bobby Bones",
+      "Seasons": [
+        "27"
+      ],
+      "Avg_Judge_Score": 201.5,
+      "Avg_Fan_Vote": 0.18973653664827642,
+      "Judge_Rank_Percentile": 0.5555555555555556,
+      "Fan_Rank_Percentile": 0.5555555555555556,
+      "Survival_Weeks": 9,
+      "Final_Result": "Safe"
+    }
+  ],
+  "judge_save_impact": {
+    "total_changes": 288,
+    "change_percentage": 10.370903853078863,
+    "changed_cases": "      Season  Week               Name      Result  Simulated_Eliminated Result_Status Simulated_Status\n11         1     2      Trista Sutter  Eliminated                 False    Eliminated             Safe\n14         1     3  Evander Holyfield  Eliminated                 False    Eliminated             Safe\n19         1     4      Rachel Hunter  Eliminated                 False    Eliminated             Safe\n35         2     1        Kenny Mayne  Eliminated                 False    Eliminated             Safe\n36         2     2       Tatum O'Neal  Eliminated                 False    Eliminated             Safe\n...      ...   ...                ...         ...                   ...           ...              ...\n2737      34     6       Scott Hoying  Eliminated                 False    Eliminated             Safe\n2748      34     7        Jen Affleck  Eliminated                 False    Eliminated             Safe\n2751      34     8    Danielle Fishel  Eliminated                 False    Eliminated             Safe\n2761      34     9       Andy Richter  Eliminated                 False    Eliminated             Safe\n2770      34    10    Whitney Leavitt  Eliminated                 False    Eliminated             Safe\n\n[288 rows x 7 columns]"
+  },
+  "recommendations": [
+    "粉丝投票估计模型准确性较高（准确率94.9%），可以用于预测淘汰结果。",
+    "两种方法预测准确性相近（排名制94.5% vs 百分比制95.1%），均可考虑使用。",
+    "评委和粉丝投票影响相对平衡（影响力比例56%）。",
+    "增设评委拯救环节会适度改变结果（改变10.4%），可以考虑引入以平衡专业性和娱乐性。",
+    "综合建议：未来赛季可采用平衡系统，平时使用当前投票方法，在决赛或半决赛引入评委拯救环节处理争议情况，以兼顾专业性和娱乐性。"
+  ],
+  "data_summary": {
+    "total_records": 2777,
+    "unique_seasons": 34,
+    "unique_contestants": 408,
+    "elimination_count": "297"
+  }
+}
