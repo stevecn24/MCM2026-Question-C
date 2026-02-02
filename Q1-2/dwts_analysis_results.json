@@ -1,0 +1,2525 @@
+{
+  "consistency_metrics": {
+    "overall_accuracy": 0.9492257832193014,
+    "precision": 0.7267441860465116,
+    "recall": 0.8417508417508418,
+    "f1_score": 0.7800312012480499,
+    "confusion_matrix": {
+      "true_negatives": 2386,
+      "false_positives": 94,
+      "false_negatives": 47,
+      "true_positives": 250
+    },
+    "weekly_consistency": {
+      "weekly_mean_accuracy": 0.9200795472349012,
+      "weekly_std_accuracy": 0.08107051092574095,
+      "weekly_min_accuracy": 0.7297297297297297,
+      "weekly_max_accuracy": 0.9846743295019157,
+      "perfect_prediction_weeks": 0,
+      "weekly_coefficient_of_variation": 0.08811250197809606,
+      "detailed_weekly_scores": {
+        "1": {
+          "accuracy": 0.9382422802850356,
+          "participants": 421,
+          "correct_predictions": 395,
+          "elimination_actual": 16,
+          "elimination_predicted": 36
+        },
+        "2": {
+          "accuracy": 0.9727722772277227,
+          "participants": 404,
+          "correct_predictions": 393,
+          "elimination_actual": 39,
+          "elimination_predicted": 34
+        },
+        "3": {
+          "accuracy": 0.9638888888888889,
+          "participants": 360,
+          "correct_predictions": 347,
+          "elimination_actual": 33,
+          "elimination_predicted": 36
+        },
+        "4": {
+          "accuracy": 0.9846625766871165,
+          "participants": 326,
+          "correct_predictions": 321,
+          "elimination_actual": 35,
+          "elimination_predicted": 34
+        },
+        "5": {
+          "accuracy": 0.9444444444444444,
+          "participants": 288,
+          "correct_predictions": 272,
+          "elimination_actual": 24,
+          "elimination_predicted": 34
+        },
+        "6": {
+          "accuracy": 0.9846743295019157,
+          "participants": 261,
+          "correct_predictions": 257,
+          "elimination_actual": 31,
+          "elimination_predicted": 33
+        },
+        "7": {
+          "accuracy": 0.9605263157894737,
+          "participants": 228,
+          "correct_predictions": 219,
+          "elimination_actual": 36,
+          "elimination_predicted": 33
+        },
+        "8": {
+          "accuracy": 0.9476439790575916,
+          "participants": 191,
+          "correct_predictions": 181,
+          "elimination_actual": 36,
+          "elimination_predicted": 32
+        },
+        "9": {
+          "accuracy": 0.9144736842105263,
+          "participants": 152,
+          "correct_predictions": 139,
+          "elimination_actual": 32,
+          "elimination_predicted": 33
+        },
+        "10": {
+          "accuracy": 0.7798165137614679,
+          "participants": 109,
+          "correct_predictions": 85,
+          "elimination_actual": 11,
+          "elimination_predicted": 29
+        },
+        "11": {
+          "accuracy": 0.7297297297297297,
+          "participants": 37,
+          "correct_predictions": 27,
+          "elimination_actual": 4,
+          "elimination_predicted": 10
+        }
+      }
+    },
+    "method_metrics": {
+      "rank": {
+        "accuracy": 0.9448717948717948,
+        "precision": 0.6666666666666666,
+        "recall": 0.8533333333333334,
+        "f1_score": 0.7485380116959064,
+        "samples": 780
+      },
+      "percent": {
+        "accuracy": 0.9509263895843766,
+        "precision": 0.75,
+        "recall": 0.8378378378378378,
+        "f1_score": 0.7914893617021277,
+        "samples": 1997
+      }
+    },
+    "stability_metrics": {},
+    "classification_report": {
+      "False": {
+        "precision": 0.980682285244554,
+        "recall": 0.9620967741935483,
+        "f1-score": 0.9713006309790352,
+        "support": 2480.0
+      },
+      "True": {
+        "precision": 0.7267441860465116,
+        "recall": 0.8417508417508418,
+        "f1-score": 0.7800312012480499,
+        "support": 297.0
+      },
+      "accuracy": 0.9492257832193014,
+      "macro avg": {
+        "precision": 0.8537132356455328,
+        "recall": 0.9019238079721951,
+        "f1-score": 0.8756659161135425,
+        "support": 2777.0
+      },
+      "weighted avg": {
+        "precision": 0.9535236192518214,
+        "recall": 0.9492257832193014,
+        "f1-score": 0.9508443758007483,
+        "support": 2777.0
+      }
+    }
+  },
+  "certainty_metrics": {
+    "vote_distribution": {
+      "mean": 0.12063377745768787,
+      "std": 0.08459051967926108,
+      "cv": 0.7012175317889808,
+      "range": [
+        0.000116355135680546,
+        0.745930710305892
+      ],
+      "iqr": 0.0634287692771439,
+      "skewness": 2.202395669940823,
+      "kurtosis": 7.273519027670591
+    },
+    "fan_judge_correlation": 0.23693776252201276,
+    "data_completeness": {
+      "Fan_Vote_Mean": {
+        "missing_rate": 0.0,
+        "available_count": 2777,
+        "completeness_score": 1.0
+      },
+      "Judge_Score": {
+        "missing_rate": 0.0,
+        "available_count": 2777,
+        "completeness_score": 1.0
+      }
+    },
+    "contestant_consistency": {
+      "John O'Hurley": {
+        "mean_vote": 0.327738074554566,
+        "std_vote": 0.22014950372193046,
+        "cv_vote": 0.6717239186235506,
+        "weeks_count": 6
+      },
+      "Kelly Monaco": {
+        "mean_vote": 0.20513291615656398,
+        "std_vote": 0.08579203843233693,
+        "cv_vote": 0.41822658225585657,
+        "weeks_count": 16
+      },
+      "Evander Holyfield": {
+        "mean_vote": 0.20855895837062932,
+        "std_vote": 0.07771385917269291,
+        "cv_vote": 0.37262297328215416,
+        "weeks_count": 3
+      },
+      "Rachel Hunter": {
+        "mean_vote": 0.1317394780520438,
+        "std_vote": 0.05587639914542344,
+        "cv_vote": 0.424143164764547,
+        "weeks_count": 4
+      },
+      "Joey McIntyre": {
+        "mean_vote": 0.24012785392649677,
+        "std_vote": 0.09096988060090483,
+        "cv_vote": 0.3788393520926179,
+        "weeks_count": 5
+      },
+      "Trista Sutter": {
+        "mean_vote": 0.093278885824241,
+        "std_vote": 0.10186578760198481,
+        "cv_vote": 1.092056221532529,
+        "weeks_count": 2
+      },
+      "Tatum O'Neal": {
+        "mean_vote": 0.06124225982307825,
+        "std_vote": 0.04831157420074076,
+        "cv_vote": 0.7888600835486356,
+        "weeks_count": 2
+      },
+      "Tia Carrere": {
+        "mean_vote": 0.09592521945173008,
+        "std_vote": 0.013711816979276478,
+        "cv_vote": 0.14294277414894332,
+        "weeks_count": 5
+      },
+      "George Hamilton": {
+        "mean_vote": 0.18162886069786485,
+        "std_vote": 0.06484247148061885,
+        "cv_vote": 0.35700533071383794,
+        "weeks_count": 6
+      },
+      "Lisa Rinna": {
+        "mean_vote": 0.16883175086202556,
+        "std_vote": 0.03536135652237902,
+        "cv_vote": 0.2094473127348978,
+        "weeks_count": 7
+      },
+      "Stacy Keibler": {
+        "mean_vote": 0.16579160525031594,
+        "std_vote": 0.06872069790200498,
+        "cv_vote": 0.41450046760961695,
+        "weeks_count": 8
+      },
+      "Jerry Rice": {
+        "mean_vote": 0.2896027748276201,
+        "std_vote": 0.18819462169205728,
+        "cv_vote": 0.6498370804771333,
+        "weeks_count": 8
+      },
+      "Giselle Fernandez": {
+        "mean_vote": 0.08015538289958679,
+        "std_vote": 0.06110751849430189,
+        "cv_vote": 0.7623632535178982,
+        "weeks_count": 3
+      },
+      "Master P": {
+        "mean_vote": 0.15072926439599588,
+        "std_vote": 0.05137211181466925,
+        "cv_vote": 0.34082374129886583,
+        "weeks_count": 4
+      },
+      "Drew Lachey": {
+        "mean_vote": 0.07895219772675985,
+        "std_vote": 0.01585282261840806,
+        "cv_vote": 0.20079013725839512,
+        "weeks_count": 11
+      },
+      "Harry Hamlin": {
+        "mean_vote": 0.07590942103938629,
+        "std_vote": 0.056175275528380184,
+        "cv_vote": 0.7400303514267765,
+        "weeks_count": 3
+      },
+      "Vivica A. Fox": {
+        "mean_vote": 0.06883770256335588,
+        "std_vote": 0.042191349704867646,
+        "cv_vote": 0.6129104855879838,
+        "weeks_count": 4
+      },
+      "Monique Coleman": {
+        "mean_vote": 0.11624684967124935,
+        "std_vote": 0.033922113297452774,
+        "cv_vote": 0.29181103310228057,
+        "weeks_count": 8
+      },
+      "Joey Lawrence": {
+        "mean_vote": 0.21881279092391395,
+        "std_vote": 0.1179488978174929,
+        "cv_vote": 0.5390402330662029,
+        "weeks_count": 9
+      },
+      "Mario Lopez": {
+        "mean_vote": 0.23784815554539368,
+        "std_vote": 0.11629926216794259,
+        "cv_vote": 0.48896432222173236,
+        "weeks_count": 10
+      },
+      "Emmitt Smith": {
+        "mean_vote": 0.17489229369417847,
+        "std_vote": 0.10232441023199472,
+        "cv_vote": 0.5850710061068901,
+        "weeks_count": 19
+      },
+      "Shanna Moakler": {
+        "mean_vote": 0.053471522526842195,
+        "std_vote": 0.06859501974233446,
+        "cv_vote": 1.2828327397616257,
+        "weeks_count": 2
+      },
+      "Willa Ford": {
+        "mean_vote": 0.08888694755104665,
+        "std_vote": 0.04367247376783283,
+        "cv_vote": 0.4913260604742027,
+        "weeks_count": 5
+      },
+      "Sara Evans": {
+        "mean_vote": 0.13635384303820838,
+        "std_vote": 0.045215473561060406,
+        "cv_vote": 0.331603954487666,
+        "weeks_count": 5
+      },
+      "Jerry Springer": {
+        "mean_vote": 0.13805024795249177,
+        "std_vote": 0.050449408072029855,
+        "cv_vote": 0.3654423575493423,
+        "weeks_count": 7
+      },
+      "John Ratzenberger": {
+        "mean_vote": 0.1078441581976282,
+        "std_vote": 0.041713455812750946,
+        "cv_vote": 0.3867938376069437,
+        "weeks_count": 7
+      },
+      "Ian Ziering": {
+        "mean_vote": 0.12979020176988298,
+        "std_vote": 0.0741126841440093,
+        "cv_vote": 0.5710190995419709,
+        "weeks_count": 9
+      },
+      "Clyde Drexler": {
+        "mean_vote": 0.11416686938006919,
+        "std_vote": 0.05331730940803111,
+        "cv_vote": 0.4670120998985634,
+        "weeks_count": 5
+      },
+      "Laila Ali": {
+        "mean_vote": 0.20246355267154983,
+        "std_vote": 0.09871908075557256,
+        "cv_vote": 0.48758939301890736,
+        "weeks_count": 10
+      },
+      "Apolo Anton Ohno": {
+        "mean_vote": 0.1366428788703733,
+        "std_vote": 0.07176913054457004,
+        "cv_vote": 0.5252313998203599,
+        "weeks_count": 19
+      },
+      "Shandi Finnessey": {
+        "mean_vote": 0.07248744657525666,
+        "std_vote": 0.06042042799693386,
+        "cv_vote": 0.8335295399625535,
+        "weeks_count": 3
+      },
+      "Paulina Porizkova": {
+        "mean_vote": 0.045634392024525086,
+        "std_vote": 0.06099113888500692,
+        "cv_vote": 1.3365169596699946,
+        "weeks_count": 2
+      },
+      "Heather Mills": {
+        "mean_vote": 0.0694739994567913,
+        "std_vote": 0.032930142166884294,
+        "cv_vote": 0.47399231977950096,
+        "weeks_count": 6
+      },
+      "Billy Ray Cyrus": {
+        "mean_vote": 0.18557200208570157,
+        "std_vote": 0.10423996074028395,
+        "cv_vote": 0.561722455805286,
+        "weeks_count": 8
+      },
+      "Joey Fatone": {
+        "mean_vote": 0.12020253571061905,
+        "std_vote": 0.09056467994074485,
+        "cv_vote": 0.7534340220473743,
+        "weeks_count": 12
+      },
+      "Leeza Gibbons": {
+        "mean_vote": 0.07493652044855445,
+        "std_vote": 0.04223599206631477,
+        "cv_vote": 0.5636236085355831,
+        "weeks_count": 4
+      },
+      "Cameron Mathison": {
+        "mean_vote": 0.11283761480648842,
+        "std_vote": 0.03548923104244731,
+        "cv_vote": 0.3145159626363052,
+        "weeks_count": 8
+      },
+      "Jane Seymour": {
+        "mean_vote": 0.09472994002847124,
+        "std_vote": 0.03102619663086088,
+        "cv_vote": 0.3275226039574807,
+        "weeks_count": 7
+      },
+      "Sabrina Bryan": {
+        "mean_vote": 0.07813254654611133,
+        "std_vote": 0.04352366848288972,
+        "cv_vote": 0.5570491479783453,
+        "weeks_count": 12
+      },
+      "Jennie Garth": {
+        "mean_vote": 0.13399570565283833,
+        "std_vote": 0.05868616397803697,
+        "cv_vote": 0.43797048339805406,
+        "weeks_count": 9
+      },
+      "Floyd Mayweather Jr.": {
+        "mean_vote": 0.08982581282049995,
+        "std_vote": 0.06044669359682734,
+        "cv_vote": 0.672932330906025,
+        "weeks_count": 4
+      },
+      "Albert Reed": {
+        "mean_vote": 0.05169219756781414,
+        "std_vote": 0.06782866755794144,
+        "cv_vote": 1.3121645190061446,
+        "weeks_count": 2
+      },
+      "Helio Castroneves": {
+        "mean_vote": 0.22237887294594855,
+        "std_vote": 0.15840903370812115,
+        "cv_vote": 0.7123385041465881,
+        "weeks_count": 13
+      },
+      "Mel B": {
+        "mean_vote": 0.14054131976064427,
+        "std_vote": 0.0738081484004638,
+        "cv_vote": 0.5251704518369855,
+        "weeks_count": 10
+      },
+      "Wayne Newton": {
+        "mean_vote": 0.08792861498214033,
+        "std_vote": 0.06172467622923107,
+        "cv_vote": 0.7019862219115849,
+        "weeks_count": 3
+      },
+      "Marie Osmond": {
+        "mean_vote": 0.13022269417557597,
+        "std_vote": 0.06430085006945083,
+        "cv_vote": 0.49377606934437723,
+        "weeks_count": 10
+      },
+      "Mark Cuban": {
+        "mean_vote": 0.10008730542720823,
+        "std_vote": 0.05065465782446674,
+        "cv_vote": 0.5061047213555668,
+        "weeks_count": 5
+      },
+      "Cristian de la Fuente": {
+        "mean_vote": 0.23266574419362565,
+        "std_vote": 0.12258575345937787,
+        "cv_vote": 0.5268749548165602,
+        "weeks_count": 10
+      },
+      "Steve Guttenberg": {
+        "mean_vote": 0.06094884150743415,
+        "std_vote": 0.05158621913290989,
+        "cv_vote": 0.8463855564279713,
+        "weeks_count": 3
+      },
+      "Priscilla Presley": {
+        "mean_vote": 0.08683459115220235,
+        "std_vote": 0.05368765051947281,
+        "cv_vote": 0.618274927158578,
+        "weeks_count": 5
+      },
+      "Marlee Matlin": {
+        "mean_vote": 0.09533162640683095,
+        "std_vote": 0.0488674025651828,
+        "cv_vote": 0.5126043098922859,
+        "weeks_count": 6
+      },
+      "Shannon Elizabeth": {
+        "mean_vote": 0.07367498584499443,
+        "std_vote": 0.029049524502484526,
+        "cv_vote": 0.39429290917818594,
+        "weeks_count": 7
+      },
+      "Marissa Jaret Winokur": {
+        "mean_vote": 0.09730618355470921,
+        "std_vote": 0.027246048130022727,
+        "cv_vote": 0.2800032550316185,
+        "weeks_count": 9
+      },
+      "Jason Taylor": {
+        "mean_vote": 0.19274509802528744,
+        "std_vote": 0.09440925766482404,
+        "cv_vote": 0.48981405302685255,
+        "weeks_count": 10
+      },
+      "Kristi Yamaguchi": {
+        "mean_vote": 0.181665935332938,
+        "std_vote": 0.0755489623430143,
+        "cv_vote": 0.41586752191353976,
+        "weeks_count": 10
+      },
+      "Monica Seles": {
+        "mean_vote": 0.04371516627025131,
+        "std_vote": 0.05425913649004517,
+        "cv_vote": 1.2411970745944334,
+        "weeks_count": 2
+      },
+      "Penn Jillette": {
+        "mean_vote": 0.09161559332480079,
+        "std_vote": 0.01093135850614744,
+        "cv_vote": 0.11931766317763144,
+        "weeks_count": 2
+      },
+      "Adam Carolla": {
+        "mean_vote": 0.07411792268814306,
+        "std_vote": 0.04622455983381851,
+        "cv_vote": 0.6236623768897566,
+        "weeks_count": 4
+      },
+      "Mario": {
+        "mean_vote": 0.09770115286339304,
+        "std_vote": 0.03602498776200049,
+        "cv_vote": 0.36872633235322283,
+        "weeks_count": 8
+      },
+      "Cloris Leachman": {
+        "mean_vote": 0.10591623925988007,
+        "std_vote": 0.04255320299601658,
+        "cv_vote": 0.40176278249085523,
+        "weeks_count": 6
+      },
+      "Susan Lucci": {
+        "mean_vote": 0.09027393490294595,
+        "std_vote": 0.038789572977483075,
+        "cv_vote": 0.42968740666047156,
+        "weeks_count": 7
+      },
+      "Cody Linley": {
+        "mean_vote": 0.149148778589585,
+        "std_vote": 0.09462619914430188,
+        "cv_vote": 0.6344416631441968,
+        "weeks_count": 9
+      },
+      "Misty May-Treanor": {
+        "mean_vote": 0.0896778474725402,
+        "std_vote": 0.01917501279054168,
+        "cv_vote": 0.21382106429810507,
+        "weeks_count": 2
+      },
+      "Maurice Greene": {
+        "mean_vote": 0.1600162692598171,
+        "std_vote": 0.10690481655713963,
+        "cv_vote": 0.6680871704586435,
+        "weeks_count": 8
+      },
+      "Warren Sapp": {
+        "mean_vote": 0.22074817617384385,
+        "std_vote": 0.15750115706076517,
+        "cv_vote": 0.7134879199940918,
+        "weeks_count": 10
+      },
+      "Toni Braxton": {
+        "mean_vote": 0.10314797879455209,
+        "std_vote": 0.06487444300252437,
+        "cv_vote": 0.6289453633574331,
+        "weeks_count": 5
+      },
+      "Lance Bass": {
+        "mean_vote": 0.12651382323702712,
+        "std_vote": 0.040129385753060395,
+        "cv_vote": 0.31719368466066267,
+        "weeks_count": 10
+      },
+      "Kim Kardashian": {
+        "mean_vote": 0.04738498615251055,
+        "std_vote": 0.05471125478782278,
+        "cv_vote": 1.1546116023276303,
+        "weeks_count": 2
+      },
+      "Rocco DiSpirito": {
+        "mean_vote": 0.08769360482415793,
+        "std_vote": 0.05259538474801192,
+        "cv_vote": 0.5997630597291045,
+        "weeks_count": 4
+      },
+      "Brooke Burke": {
+        "mean_vote": 0.1378740020021481,
+        "std_vote": 0.08429303797867531,
+        "cv_vote": 0.611377320993134,
+        "weeks_count": 10
+      },
+      "Gilles Marini": {
+        "mean_vote": 0.11601831878302489,
+        "std_vote": 0.05442305422288061,
+        "cv_vote": 0.4690901815657362,
+        "weeks_count": 19
+      },
+      "Denise Richards": {
+        "mean_vote": 0.054833753032288705,
+        "std_vote": 0.04459472363755064,
+        "cv_vote": 0.8132714098794434,
+        "weeks_count": 3
+      },
+      "David Alan Grier": {
+        "mean_vote": 0.08284350664267362,
+        "std_vote": 0.046147204572562175,
+        "cv_vote": 0.5570406956770615,
+        "weeks_count": 5
+      },
+      "Lawrence Taylor": {
+        "mean_vote": 0.1340515955060496,
+        "std_vote": 0.12586762630109266,
+        "cv_vote": 0.9389491100492899,
+        "weeks_count": 7
+      },
+      "Ty Murray": {
+        "mean_vote": 0.08866575709734384,
+        "std_vote": 0.03603112405826458,
+        "cv_vote": 0.4063702294754777,
+        "weeks_count": 10
+      },
+      "Shawn Johnson": {
+        "mean_vote": 0.17521302968358168,
+        "std_vote": 0.1309997175528933,
+        "cv_vote": 0.7476596791315493,
+        "weeks_count": 21
+      },
+      "Steve Wozniak": {
+        "mean_vote": 0.0842647205766997,
+        "std_vote": 0.04718493076173051,
+        "cv_vote": 0.5599606862611227,
+        "weeks_count": 4
+      },
+      "Belinda Carlisle": {
+        "mean_vote": 0.038728052878736964,
+        "std_vote": 0.05183524127224909,
+        "cv_vote": 1.3384417087673526,
+        "weeks_count": 2
+      },
+      "Chuck Wicks": {
+        "mean_vote": 0.08807745489446128,
+        "std_vote": 0.05220585152544906,
+        "cv_vote": 0.5927266130476256,
+        "weeks_count": 8
+      },
+      "Lil' Kim": {
+        "mean_vote": 0.07135977826285832,
+        "std_vote": 0.03094228003015242,
+        "cv_vote": 0.43360953163523785,
+        "weeks_count": 9
+      },
+      "Steve-O": {
+        "mean_vote": 0.09835839276025958,
+        "std_vote": 0.04048790673997202,
+        "cv_vote": 0.41163652235206744,
+        "weeks_count": 6
+      },
+      "Holly Madison": {
+        "mean_vote": 0.09494881162105165,
+        "std_vote": 0.019944791385530767,
+        "cv_vote": 0.21005835718231036,
+        "weeks_count": 4
+      },
+      "Melissa Rycroft": {
+        "mean_vote": 0.1702584392293626,
+        "std_vote": 0.12411345107459147,
+        "cv_vote": 0.7289709199518316,
+        "weeks_count": 21
+      },
+      "Debi Mazar": {
+        "mean_vote": 0.04380982128171546,
+        "std_vote": 0.03798477376854198,
+        "cv_vote": 0.8670378617681184,
+        "weeks_count": 3
+      },
+      "Melissa Joan Hart": {
+        "mean_vote": 0.06766617720087906,
+        "std_vote": 0.03245317460044501,
+        "cv_vote": 0.4796070347538919,
+        "weeks_count": 6
+      },
+      "Mark Dacascos": {
+        "mean_vote": 0.07080586824469012,
+        "std_vote": 0.03484266569895496,
+        "cv_vote": 0.49208726003536973,
+        "weeks_count": 7
+      },
+      "Chuck Liddell": {
+        "mean_vote": 0.06961397963546925,
+        "std_vote": 0.047661691491385945,
+        "cv_vote": 0.6846568999641227,
+        "weeks_count": 4
+      },
+      "Natalie Coughlin": {
+        "mean_vote": 0.06299269233396682,
+        "std_vote": 0.03982846617142122,
+        "cv_vote": 0.6322712158461748,
+        "weeks_count": 5
+      },
+      "Louie Vito": {
+        "mean_vote": 0.10303324187407198,
+        "std_vote": 0.037839218741945506,
+        "cv_vote": 0.3672525298989708,
+        "weeks_count": 6
+      },
+      "Michael Irvin": {
+        "mean_vote": 0.20807219686991088,
+        "std_vote": 0.1383260993186754,
+        "cv_vote": 0.6647985718397469,
+        "weeks_count": 7
+      },
+      "Joanna Krupa": {
+        "mean_vote": 0.06689505779712904,
+        "std_vote": 0.04396278641115752,
+        "cv_vote": 0.6571903494647148,
+        "weeks_count": 9
+      },
+      "Kathy Ireland": {
+        "mean_vote": 0.03471561171797355,
+        "std_vote": 0.046749064687416735,
+        "cv_vote": 1.3466294377066392,
+        "weeks_count": 2
+      },
+      "Tom DeLay": {
+        "mean_vote": 0.0773576654495327,
+        "std_vote": 0.01473845344643913,
+        "cv_vote": 0.19052350353119613,
+        "weeks_count": 3
+      },
+      "Aaron Carter": {
+        "mean_vote": 0.0708525851768268,
+        "std_vote": 0.03485635479951855,
+        "cv_vote": 0.49195600573398335,
+        "weeks_count": 8
+      },
+      "Mya": {
+        "mean_vote": 0.10868956157619454,
+        "std_vote": 0.04153161563092862,
+        "cv_vote": 0.3821122748923203,
+        "weeks_count": 10
+      },
+      "Donny Osmond": {
+        "mean_vote": 0.22988144565398158,
+        "std_vote": 0.22263199852219775,
+        "cv_vote": 0.9684644095083006,
+        "weeks_count": 10
+      },
+      "Kelly Osbourne": {
+        "mean_vote": 0.1370805915988194,
+        "std_vote": 0.07673785876990097,
+        "cv_vote": 0.559801047507019,
+        "weeks_count": 10
+      },
+      "Aiden Turner": {
+        "mean_vote": 0.07928127822459445,
+        "std_vote": 0.047463731346328066,
+        "cv_vote": 0.5986751526869805,
+        "weeks_count": 4
+      },
+      "Shannen Doherty": {
+        "mean_vote": 0.047164719437298275,
+        "std_vote": 0.062166389780738136,
+        "cv_vote": 1.3180697462513984,
+        "weeks_count": 2
+      },
+      "Niecy Nash": {
+        "mean_vote": 0.13278048046210586,
+        "std_vote": 0.0931496731926167,
+        "cv_vote": 0.7015313762115858,
+        "weeks_count": 8
+      },
+      "Buzz Aldrin": {
+        "mean_vote": 0.08288260349956443,
+        "std_vote": 0.049086457089668044,
+        "cv_vote": 0.5922407720930968,
+        "weeks_count": 3
+      },
+      "Chad Ochocinco": {
+        "mean_vote": 0.1506408714101077,
+        "std_vote": 0.05009887006555864,
+        "cv_vote": 0.3325715630598583,
+        "weeks_count": 9
+      },
+      "Evan Lysacek": {
+        "mean_vote": 0.2473795562988348,
+        "std_vote": 0.20023901157915552,
+        "cv_vote": 0.8094404185011415,
+        "weeks_count": 10
+      },
+      "Pamela Anderson": {
+        "mean_vote": 0.11682429030682895,
+        "std_vote": 0.09011552484264469,
+        "cv_vote": 0.7713766084601414,
+        "weeks_count": 8
+      },
+      "Nicole Scherzinger": {
+        "mean_vote": 0.13903780655113263,
+        "std_vote": 0.07340305958007048,
+        "cv_vote": 0.527935972242742,
+        "weeks_count": 10
+      },
+      "Erin Andrews": {
+        "mean_vote": 0.10623731101641987,
+        "std_vote": 0.03424309660319526,
+        "cv_vote": 0.322326462102403,
+        "weeks_count": 10
+      },
+      "Kate Gosselin": {
+        "mean_vote": 0.11144599620969398,
+        "std_vote": 0.056091812699748424,
+        "cv_vote": 0.5033093570648108,
+        "weeks_count": 5
+      },
+      "Jake Pavelka": {
+        "mean_vote": 0.08496114367240538,
+        "std_vote": 0.039669042654293774,
+        "cv_vote": 0.4669080586679758,
+        "weeks_count": 6
+      },
+      "Florence Henderson": {
+        "mean_vote": 0.08458384486539074,
+        "std_vote": 0.04674892735377004,
+        "cv_vote": 0.5526933355674205,
+        "weeks_count": 5
+      },
+      "Kyle Massey": {
+        "mean_vote": 0.17255408374161185,
+        "std_vote": 0.08805535323973271,
+        "cv_vote": 0.5103058202412044,
+        "weeks_count": 10
+      },
+      "Jennifer Grey": {
+        "mean_vote": 0.1864434239619845,
+        "std_vote": 0.09719334888932298,
+        "cv_vote": 0.52130210239617,
+        "weeks_count": 10
+      },
+      "Rick Fox": {
+        "mean_vote": 0.142505825887302,
+        "std_vote": 0.06792821885371703,
+        "cv_vote": 0.4766697672236695,
+        "weeks_count": 7
+      },
+      "Kurt Warner": {
+        "mean_vote": 0.14343152779081617,
+        "std_vote": 0.055787354338259036,
+        "cv_vote": 0.3889476407141155,
+        "weeks_count": 8
+      },
+      "Margaret Cho": {
+        "mean_vote": 0.06931581409169159,
+        "std_vote": 0.053969186356260974,
+        "cv_vote": 0.7785984636185624,
+        "weeks_count": 3
+      },
+      "Michael Bolton": {
+        "mean_vote": 0.055807089878488696,
+        "std_vote": 0.05517394529933172,
+        "cv_vote": 0.98865476446567,
+        "weeks_count": 2
+      },
+      "Brandy": {
+        "mean_vote": 0.12001946293757539,
+        "std_vote": 0.04203169690615653,
+        "cv_vote": 0.3502073403546064,
+        "weeks_count": 9
+      },
+      "The Situation": {
+        "mean_vote": 0.07813688479632044,
+        "std_vote": 0.04610122427632744,
+        "cv_vote": 0.5900059158552274,
+        "weeks_count": 4
+      },
+      "Audrina Patridge": {
+        "mean_vote": 0.090904537082288,
+        "std_vote": 0.04369927744971098,
+        "cv_vote": 0.4807161320248934,
+        "weeks_count": 6
+      },
+      "Bristol Palin": {
+        "mean_vote": 0.1365113359968843,
+        "std_vote": 0.08183799073908343,
+        "cv_vote": 0.599495933004064,
+        "weeks_count": 14
+      },
+      "Ralph Macchio": {
+        "mean_vote": 0.1992297621409679,
+        "std_vote": 0.11106577996950202,
+        "cv_vote": 0.5574758448535205,
+        "weeks_count": 9
+      },
+      "Chelsea Kane": {
+        "mean_vote": 0.14828692957032938,
+        "std_vote": 0.05830518179836701,
+        "cv_vote": 0.39319164519293714,
+        "weeks_count": 10
+      },
+      "Kirstie Alley": {
+        "mean_vote": 0.14904817170006357,
+        "std_vote": 0.04775490462704467,
+        "cv_vote": 0.3203991305786967,
+        "weeks_count": 18
+      },
+      "Hines Ward": {
+        "mean_vote": 0.2054903288795124,
+        "std_vote": 0.13435781037791142,
+        "cv_vote": 0.6538400668806708,
+        "weeks_count": 10
+      },
+      "Sugar Ray Leonard": {
+        "mean_vote": 0.0812517054881782,
+        "std_vote": 0.05323590734025514,
+        "cv_vote": 0.655197414262286,
+        "weeks_count": 4
+      },
+      "Chris Jericho": {
+        "mean_vote": 0.07872609155246905,
+        "std_vote": 0.03430096517953363,
+        "cv_vote": 0.4357000900606485,
+        "weeks_count": 6
+      },
+      "Petra Nemcova": {
+        "mean_vote": 0.0867231975797586,
+        "std_vote": 0.046472367311978825,
+        "cv_vote": 0.5358700856162341,
+        "weeks_count": 5
+      },
+      "Mike Catherwood": {
+        "mean_vote": 0.04664286891401309,
+        "std_vote": 0.06102657823755371,
+        "cv_vote": 1.3083796013932425,
+        "weeks_count": 2
+      },
+      "Romeo": {
+        "mean_vote": 0.08667375289118752,
+        "std_vote": 0.020317857175551256,
+        "cv_vote": 0.23441764660933537,
+        "weeks_count": 8
+      },
+      "Wendy Williams": {
+        "mean_vote": 0.06779836638018792,
+        "std_vote": 0.04972737073330697,
+        "cv_vote": 0.7334597186966784,
+        "weeks_count": 3
+      },
+      "Kendra Wilkinson": {
+        "mean_vote": 0.12429021576528523,
+        "std_vote": 0.061882693717162277,
+        "cv_vote": 0.4978886981258775,
+        "weeks_count": 7
+      },
+      "Elisabetta Canalis": {
+        "mean_vote": 0.04521493623474268,
+        "std_vote": 0.06144302854538539,
+        "cv_vote": 1.3589099899730306,
+        "weeks_count": 2
+      },
+      "David Arquette": {
+        "mean_vote": 0.10473033362698245,
+        "std_vote": 0.05210001082395066,
+        "cv_vote": 0.4974682025698021,
+        "weeks_count": 7
+      },
+      "Ricki Lake": {
+        "mean_vote": 0.11462063427802097,
+        "std_vote": 0.053544825754899175,
+        "cv_vote": 0.4671482241585069,
+        "weeks_count": 10
+      },
+      "J.R. Martinez": {
+        "mean_vote": 0.21079685987458974,
+        "std_vote": 0.12755939485828716,
+        "cv_vote": 0.6051294831155294,
+        "weeks_count": 10
+      },
+      "Hope Solo": {
+        "mean_vote": 0.11314095343013027,
+        "std_vote": 0.02970853284616452,
+        "cv_vote": 0.26257983467066065,
+        "weeks_count": 9
+      },
+      "Chynna Phillips": {
+        "mean_vote": 0.06775631130448222,
+        "std_vote": 0.03879636556808287,
+        "cv_vote": 0.5725867424178449,
+        "weeks_count": 4
+      },
+      "Kristin Cavallari": {
+        "mean_vote": 0.05710465064346024,
+        "std_vote": 0.04579923030013886,
+        "cv_vote": 0.8020227736982731,
+        "weeks_count": 3
+      },
+      "Carson Kressley": {
+        "mean_vote": 0.10164335719111808,
+        "std_vote": 0.05076009657249024,
+        "cv_vote": 0.49939413627441476,
+        "weeks_count": 5
+      },
+      "Chaz Bono": {
+        "mean_vote": 0.13061259594186758,
+        "std_vote": 0.06811154308386382,
+        "cv_vote": 0.5214776001709557,
+        "weeks_count": 6
+      },
+      "Nancy Grace": {
+        "mean_vote": 0.1651712701012496,
+        "std_vote": 0.07505105921376838,
+        "cv_vote": 0.45438325422915415,
+        "weeks_count": 8
+      },
+      "Rob Kardashian": {
+        "mean_vote": 0.18406630069387514,
+        "std_vote": 0.121337459465358,
+        "cv_vote": 0.6592051831755835,
+        "weeks_count": 10
+      },
+      "William Levy": {
+        "mean_vote": 0.17965432562529932,
+        "std_vote": 0.09944670020756399,
+        "cv_vote": 0.5535447023690238,
+        "weeks_count": 10
+      },
+      "Jack Wagner": {
+        "mean_vote": 0.056767997302054445,
+        "std_vote": 0.048443344885507514,
+        "cv_vote": 0.8533565950503302,
+        "weeks_count": 3
+      },
+      "Sherri Sheperd": {
+        "mean_vote": 0.06583227870195436,
+        "std_vote": 0.042787352586233826,
+        "cv_vote": 0.6499448815974769,
+        "weeks_count": 4
+      },
+      "Jaleel White": {
+        "mean_vote": 0.08722087404725438,
+        "std_vote": 0.04068184996672441,
+        "cv_vote": 0.46642332367231104,
+        "weeks_count": 7
+      },
+      "Roshon Fegan": {
+        "mean_vote": 0.08960206138645146,
+        "std_vote": 0.04282675946999247,
+        "cv_vote": 0.47796622987591453,
+        "weeks_count": 8
+      },
+      "Melissa Gilbert": {
+        "mean_vote": 0.12651903504781714,
+        "std_vote": 0.0457030175633339,
+        "cv_vote": 0.3612343197690427,
+        "weeks_count": 8
+      },
+      "Martina Navratilova": {
+        "mean_vote": 0.04294891398536873,
+        "std_vote": 0.05404133396753876,
+        "cv_vote": 1.25827009236948,
+        "weeks_count": 2
+      },
+      "Donald Driver": {
+        "mean_vote": 0.23007669468362862,
+        "std_vote": 0.15807279737636734,
+        "cv_vote": 0.6870439337357849,
+        "weeks_count": 10
+      },
+      "Gavin DeGraw": {
+        "mean_vote": 0.08934856449901549,
+        "std_vote": 0.048308953820423425,
+        "cv_vote": 0.5406796862523262,
+        "weeks_count": 5
+      },
+      "Gladys Knight": {
+        "mean_vote": 0.10492119216832822,
+        "std_vote": 0.056364423438694335,
+        "cv_vote": 0.5372072340568452,
+        "weeks_count": 6
+      },
+      "Katherine Jenkins": {
+        "mean_vote": 0.11516617919949661,
+        "std_vote": 0.03707096594508908,
+        "cv_vote": 0.32189108124246185,
+        "weeks_count": 10
+      },
+      "Maria Menounos": {
+        "mean_vote": 0.09063468943567125,
+        "std_vote": 0.019402267672683996,
+        "cv_vote": 0.21407110007758035,
+        "weeks_count": 9
+      },
+      "Ingo Rademacher": {
+        "mean_vote": 0.10468154322682215,
+        "std_vote": 0.04987112116926741,
+        "cv_vote": 0.47640796679131425,
+        "weeks_count": 9
+      },
+      "Zendaya": {
+        "mean_vote": 0.1584880297113272,
+        "std_vote": 0.12977610970072584,
+        "cv_vote": 0.8188385579472611,
+        "weeks_count": 10
+      },
+      "Dorothy Hamill": {
+        "mean_vote": 0.0868694285806452,
+        "std_vote": 0.00046443303323371926,
+        "cv_vote": 0.0053463346176217,
+        "weeks_count": 2
+      },
+      "Victor Ortiz": {
+        "mean_vote": 0.0942538029325316,
+        "std_vote": 0.053207466874397015,
+        "cv_vote": 0.5645126797958887,
+        "weeks_count": 6
+      },
+      "Alexandra Raisman": {
+        "mean_vote": 0.19748024241924728,
+        "std_vote": 0.16517173199508572,
+        "cv_vote": 0.836396238791468,
+        "weeks_count": 10
+      },
+      "Jacoby Jones": {
+        "mean_vote": 0.11901327260020837,
+        "std_vote": 0.051178291517551086,
+        "cv_vote": 0.4300217143802958,
+        "weeks_count": 10
+      },
+      "D. L. Hughley": {
+        "mean_vote": 0.07881424161718274,
+        "std_vote": 0.044383302424209924,
+        "cv_vote": 0.5631381018647481,
+        "weeks_count": 5
+      },
+      "Andy Dick": {
+        "mean_vote": 0.09665331908109508,
+        "std_vote": 0.04705459277116637,
+        "cv_vote": 0.48683887132407877,
+        "weeks_count": 7
+      },
+      "Wynonna Judd": {
+        "mean_vote": 0.05480516221556094,
+        "std_vote": 0.04313631088896168,
+        "cv_vote": 0.7870848136403088,
+        "weeks_count": 3
+      },
+      "Kellie Pickler": {
+        "mean_vote": 0.13072768519259198,
+        "std_vote": 0.04195747127231857,
+        "cv_vote": 0.3209532182146846,
+        "weeks_count": 10
+      },
+      "Lisa Vanderpump": {
+        "mean_vote": 0.0649069297640095,
+        "std_vote": 0.04172730852035666,
+        "cv_vote": 0.6428790989201002,
+        "weeks_count": 4
+      },
+      "Sean Lowe": {
+        "mean_vote": 0.09585306120150522,
+        "std_vote": 0.040539700414776725,
+        "cv_vote": 0.4229358969511984,
+        "weeks_count": 8
+      },
+      "Valerie Harper": {
+        "mean_vote": 0.0817647106504103,
+        "std_vote": 0.05412325581680563,
+        "cv_vote": 0.661939061317207,
+        "weeks_count": 4
+      },
+      "Brant Daugherty": {
+        "mean_vote": 0.10368663134059267,
+        "std_vote": 0.045808833566198505,
+        "cv_vote": 0.44180077001175205,
+        "weeks_count": 8
+      },
+      "Elizabeth Berkley Lauren": {
+        "mean_vote": 0.1427274711536696,
+        "std_vote": 0.10397280779096811,
+        "cv_vote": 0.7284708889644957,
+        "weeks_count": 9
+      },
+      "Leah Remini": {
+        "mean_vote": 0.10168053567184274,
+        "std_vote": 0.028548668738321435,
+        "cv_vote": 0.28076827634403484,
+        "weeks_count": 10
+      },
+      "Corbin Bleu": {
+        "mean_vote": 0.12963045810182297,
+        "std_vote": 0.04721243000601049,
+        "cv_vote": 0.36420784665379924,
+        "weeks_count": 11
+      },
+      "Amber Riley": {
+        "mean_vote": 0.1861746239998137,
+        "std_vote": 0.12830051008543186,
+        "cv_vote": 0.6891406966695969,
+        "weeks_count": 11
+      },
+      "Keyshawn Johnson": {
+        "mean_vote": 0.042350736732869515,
+        "std_vote": 0.05489847403585685,
+        "cv_vote": 1.2962814409140775,
+        "weeks_count": 2
+      },
+      "Bill Engvall": {
+        "mean_vote": 0.14014422300541202,
+        "std_vote": 0.05168334996239896,
+        "cv_vote": 0.36878687436444013,
+        "weeks_count": 11
+      },
+      "Christina Milian": {
+        "mean_vote": 0.06878258368042803,
+        "std_vote": 0.03640742174262401,
+        "cv_vote": 0.5293116337673092,
+        "weeks_count": 5
+      },
+      "Nicole \"Snooki\" Polizzi": {
+        "mean_vote": 0.08768365468138803,
+        "std_vote": 0.03820511612659871,
+        "cv_vote": 0.4357153709596485,
+        "weeks_count": 7
+      },
+      "Jack Osbourne": {
+        "mean_vote": 0.1158570228349214,
+        "std_vote": 0.05399690528443639,
+        "cv_vote": 0.46606501671783634,
+        "weeks_count": 11
+      },
+      "Bill Nye": {
+        "mean_vote": 0.06994197585762456,
+        "std_vote": 0.05161202192319036,
+        "cv_vote": 0.7379262780372825,
+        "weeks_count": 3
+      },
+      "Billy Dee Williams": {
+        "mean_vote": 0.10602273822832464,
+        "std_vote": 0.030267903755031227,
+        "cv_vote": 0.28548502199450804,
+        "weeks_count": 2
+      },
+      "Danica McKellar": {
+        "mean_vote": 0.09575143311274859,
+        "std_vote": 0.04351449345018157,
+        "cv_vote": 0.45445265972095344,
+        "weeks_count": 8
+      },
+      "James Maslow": {
+        "mean_vote": 0.16403283435182317,
+        "std_vote": 0.10650755276853899,
+        "cv_vote": 0.6493063001039048,
+        "weeks_count": 10
+      },
+      "Candace Cameron Bure": {
+        "mean_vote": 0.19159667582246895,
+        "std_vote": 0.12564716141017632,
+        "cv_vote": 0.6557898819006619,
+        "weeks_count": 10
+      },
+      "Sean Avery": {
+        "mean_vote": 0.042007012446892006,
+        "std_vote": 0.05633633350662181,
+        "cv_vote": 1.3411173569614325,
+        "weeks_count": 2
+      },
+      "Charlie White": {
+        "mean_vote": 0.09717447795441705,
+        "std_vote": 0.037108448875375705,
+        "cv_vote": 0.3818744351040678,
+        "weeks_count": 9
+      },
+      "Amy Purdy": {
+        "mean_vote": 0.09744305867343084,
+        "std_vote": 0.0328641464291957,
+        "cv_vote": 0.3372651359327306,
+        "weeks_count": 10
+      },
+      "Meryl Davis": {
+        "mean_vote": 0.1810123428234079,
+        "std_vote": 0.10493195796452033,
+        "cv_vote": 0.5796950435965016,
+        "weeks_count": 10
+      },
+      "Drew Carey": {
+        "mean_vote": 0.09581316816603408,
+        "std_vote": 0.049531462587576194,
+        "cv_vote": 0.5169588224213963,
+        "weeks_count": 6
+      },
+      "Cody Simpson": {
+        "mean_vote": 0.08254507291508702,
+        "std_vote": 0.04677298736997505,
+        "cv_vote": 0.566635726617987,
+        "weeks_count": 5
+      },
+      "NeNe Leakes": {
+        "mean_vote": 0.09336465780276001,
+        "std_vote": 0.04025752784161093,
+        "cv_vote": 0.4311859411155133,
+        "weeks_count": 7
+      },
+      "Antonio Sabato Jr.": {
+        "mean_vote": 0.0838291642151726,
+        "std_vote": 0.035986090240828515,
+        "cv_vote": 0.42927888614586995,
+        "weeks_count": 7
+      },
+      "Jonathan Bennett": {
+        "mean_vote": 0.09534409025732905,
+        "std_vote": 0.056300202322750355,
+        "cv_vote": 0.5904949344086126,
+        "weeks_count": 6
+      },
+      "Lea Thompson": {
+        "mean_vote": 0.16868157274817525,
+        "std_vote": 0.11575515622536127,
+        "cv_vote": 0.6862347459741329,
+        "weeks_count": 9
+      },
+      "Janel Parrish": {
+        "mean_vote": 0.10569276343078184,
+        "std_vote": 0.0581644237773368,
+        "cv_vote": 0.5503160470908556,
+        "weeks_count": 11
+      },
+      "Alfonso Ribeiro": {
+        "mean_vote": 0.09476361567578379,
+        "std_vote": 0.09659947771457245,
+        "cv_vote": 1.019373068721541,
+        "weeks_count": 11
+      },
+      "Randy Couture": {
+        "mean_vote": 0.056521440459303914,
+        "std_vote": 0.04457240201475567,
+        "cv_vote": 0.7885928180979095,
+        "weeks_count": 3
+      },
+      "Tommy Chong": {
+        "mean_vote": 0.21959188688304554,
+        "std_vote": 0.15271892244179877,
+        "cv_vote": 0.69546705303888,
+        "weeks_count": 10
+      },
+      "Betsey Johnson": {
+        "mean_vote": 0.07561301429430815,
+        "std_vote": 0.04647572503305839,
+        "cv_vote": 0.614652457210093,
+        "weeks_count": 4
+      },
+      "Michael Waltrip": {
+        "mean_vote": 0.11529900221321823,
+        "std_vote": 0.040239951862862236,
+        "cv_vote": 0.3490052046456392,
+        "weeks_count": 8
+      },
+      "Tavis Smiley": {
+        "mean_vote": 0.04209134338745536,
+        "std_vote": 0.055917811087872756,
+        "cv_vote": 1.32848720396361,
+        "weeks_count": 2
+      },
+      "Bethany Mota": {
+        "mean_vote": 0.06325592039751002,
+        "std_vote": 0.0415048417672686,
+        "cv_vote": 0.6561416149894861,
+        "weeks_count": 11
+      },
+      "Sadie Robertson": {
+        "mean_vote": 0.15827476131506005,
+        "std_vote": 0.08334232888113546,
+        "cv_vote": 0.5265673957658676,
+        "weeks_count": 11
+      },
+      "Suzanne Somers": {
+        "mean_vote": 0.08675852014615754,
+        "std_vote": 0.043865584164078326,
+        "cv_vote": 0.5056054908518526,
+        "weeks_count": 5
+      },
+      "Willow Shields": {
+        "mean_vote": 0.10521334581314752,
+        "std_vote": 0.05241178919721988,
+        "cv_vote": 0.49814772823877324,
+        "weeks_count": 7
+      },
+      "Riker Lynch": {
+        "mean_vote": 0.18763514814666649,
+        "std_vote": 0.10992854603056491,
+        "cv_vote": 0.58586329435804,
+        "weeks_count": 10
+      },
+      "Rumer Willis": {
+        "mean_vote": 0.14201465666057805,
+        "std_vote": 0.08878511631370722,
+        "cv_vote": 0.6251827691694385,
+        "weeks_count": 10
+      },
+      "Nastia Liukin": {
+        "mean_vote": 0.07342875797882151,
+        "std_vote": 0.011839665517174554,
+        "cv_vote": 0.1612401713316379,
+        "weeks_count": 9
+      },
+      "Michael Sam": {
+        "mean_vote": 0.07218789150346012,
+        "std_vote": 0.04447639776205501,
+        "cv_vote": 0.6161199175615645,
+        "weeks_count": 4
+      },
+      "Robert Herjavec": {
+        "mean_vote": 0.10063808732544306,
+        "std_vote": 0.026344631266815122,
+        "cv_vote": 0.2617759534878873,
+        "weeks_count": 8
+      },
+      "Charlotte McKinney": {
+        "mean_vote": 0.0677348140259722,
+        "std_vote": 0.045445187477321805,
+        "cv_vote": 0.6709280616005874,
+        "weeks_count": 3
+      },
+      "Noah Galloway": {
+        "mean_vote": 0.16407512075908065,
+        "std_vote": 0.07175645532935944,
+        "cv_vote": 0.43733903712752936,
+        "weeks_count": 10
+      },
+      "Redfoo": {
+        "mean_vote": 0.043852851759061756,
+        "std_vote": 0.06039316587954054,
+        "cv_vote": 1.3771776168937724,
+        "weeks_count": 2
+      },
+      "Patti LaBelle": {
+        "mean_vote": 0.07633904431815051,
+        "std_vote": 0.032251144964264906,
+        "cv_vote": 0.42247247463375454,
+        "weeks_count": 6
+      },
+      "Chris Soules": {
+        "mean_vote": 0.1736006531227728,
+        "std_vote": 0.059976267452051236,
+        "cv_vote": 0.3454841118001738,
+        "weeks_count": 8
+      },
+      "Gary Busey": {
+        "mean_vote": 0.08183843966408318,
+        "std_vote": 0.05054800942971881,
+        "cv_vote": 0.6176560750327093,
+        "weeks_count": 4
+      },
+      "Alexa PenaVega": {
+        "mean_vote": 0.10463760023162778,
+        "std_vote": 0.03690083676117837,
+        "cv_vote": 0.35265369885675873,
+        "weeks_count": 9
+      },
+      "Carlos PenaVega": {
+        "mean_vote": 0.12103335734016407,
+        "std_vote": 0.042317475285720316,
+        "cv_vote": 0.3496348132092801,
+        "weeks_count": 11
+      },
+      "Victor Espinoza": {
+        "mean_vote": 0.03949337301386043,
+        "std_vote": 0.05195908969942282,
+        "cv_vote": 1.3156407198034836,
+        "weeks_count": 2
+      },
+      "Alek Skarlatos": {
+        "mean_vote": 0.15287763130174264,
+        "std_vote": 0.07254873833992889,
+        "cv_vote": 0.47455430674966187,
+        "weeks_count": 11
+      },
+      "Chaka Khan": {
+        "mean_vote": 0.0854561694280748,
+        "std_vote": 0.016783847286497757,
+        "cv_vote": 0.19640299113364873,
+        "weeks_count": 2
+      },
+      "Andy Grammer": {
+        "mean_vote": 0.09806253078353191,
+        "std_vote": 0.047064528276326185,
+        "cv_vote": 0.479944051007808,
+        "weeks_count": 8
+      },
+      "Tamar Braxton": {
+        "mean_vote": 0.10419837210354431,
+        "std_vote": 0.045738284302134856,
+        "cv_vote": 0.4389539239315915,
+        "weeks_count": 9
+      },
+      "Nick Carter": {
+        "mean_vote": 0.15425815428795175,
+        "std_vote": 0.08536835619745768,
+        "cv_vote": 0.5534122756201377,
+        "weeks_count": 11
+      },
+      "Hayes Grier": {
+        "mean_vote": 0.08168938132093265,
+        "std_vote": 0.03858917537132646,
+        "cv_vote": 0.47238912508984937,
+        "weeks_count": 7
+      },
+      "Bindi Irwin": {
+        "mean_vote": 0.15316596602654117,
+        "std_vote": 0.0881004059589071,
+        "cv_vote": 0.5751957059680003,
+        "weeks_count": 11
+      },
+      "Kim Zolciak-Biermann": {
+        "mean_vote": 0.08311725547339696,
+        "std_vote": 0.0058713076296917485,
+        "cv_vote": 0.07063885346371858,
+        "weeks_count": 2
+      },
+      "Paula Deen": {
+        "mean_vote": 0.1043294634102074,
+        "std_vote": 0.056547764940088556,
+        "cv_vote": 0.542011461496274,
+        "weeks_count": 6
+      },
+      "Mischa Barton": {
+        "mean_vote": 0.06385505084485911,
+        "std_vote": 0.053492434196514844,
+        "cv_vote": 0.8377165704006554,
+        "weeks_count": 3
+      },
+      "Kim Fields": {
+        "mean_vote": 0.07643249317757358,
+        "std_vote": 0.03370424098798367,
+        "cv_vote": 0.44096744181403974,
+        "weeks_count": 7
+      },
+      "Jodie Sweetin": {
+        "mean_vote": 0.12108799002652287,
+        "std_vote": 0.06307234894946125,
+        "cv_vote": 0.5208803031221015,
+        "weeks_count": 8
+      },
+      "Doug Flutie": {
+        "mean_vote": 0.08581594481904019,
+        "std_vote": 0.04021193495399629,
+        "cv_vote": 0.4685834903850452,
+        "weeks_count": 6
+      },
+      "Von Miller": {
+        "mean_vote": 0.1410963895263738,
+        "std_vote": 0.05582298605545039,
+        "cv_vote": 0.39563723949871826,
+        "weeks_count": 7
+      },
+      "Antonio Brown": {
+        "mean_vote": 0.09510155676299226,
+        "std_vote": 0.03900700495797593,
+        "cv_vote": 0.4101615818465244,
+        "weeks_count": 9
+      },
+      "Paige VanZant": {
+        "mean_vote": 0.1220438269533,
+        "std_vote": 0.039318011975378764,
+        "cv_vote": 0.32216305369073506,
+        "weeks_count": 10
+      },
+      "Geraldo Rivera": {
+        "mean_vote": 0.04612996477649367,
+        "std_vote": 0.05494036262684071,
+        "cv_vote": 1.1909907777522635,
+        "weeks_count": 2
+      },
+      "Nyle DiMarco": {
+        "mean_vote": 0.27722768588403335,
+        "std_vote": 0.28307873996130156,
+        "cv_vote": 1.0211055907299091,
+        "weeks_count": 10
+      },
+      "Ginger Zee": {
+        "mean_vote": 0.07111650707375546,
+        "std_vote": 0.013001578502021757,
+        "cv_vote": 0.18282082510798406,
+        "weeks_count": 10
+      },
+      "Wanya Morris": {
+        "mean_vote": 0.09675184709488723,
+        "std_vote": 0.027386847313443125,
+        "cv_vote": 0.28306278521570843,
+        "weeks_count": 9
+      },
+      "Marla Maples": {
+        "mean_vote": 0.06982807900663789,
+        "std_vote": 0.04557763507631221,
+        "cv_vote": 0.6527121428040371,
+        "weeks_count": 4
+      },
+      "Jake T. Austin": {
+        "mean_vote": 0.03840098606618737,
+        "std_vote": 0.051401882379469556,
+        "cv_vote": 1.3385563144361456,
+        "weeks_count": 2
+      },
+      "Maureen McCormick": {
+        "mean_vote": 0.05553349657562454,
+        "std_vote": 0.026943461709549945,
+        "cv_vote": 0.48517495513466924,
+        "weeks_count": 7
+      },
+      "Marilu Henner": {
+        "mean_vote": 0.08481300978683269,
+        "std_vote": 0.04290864295749704,
+        "cv_vote": 0.5059205311230288,
+        "weeks_count": 9
+      },
+      "Ryan Lochte": {
+        "mean_vote": 0.07174317833588496,
+        "std_vote": 0.03696059726932062,
+        "cv_vote": 0.515179256434384,
+        "weeks_count": 8
+      },
+      "Calvin Johnson Jr.": {
+        "mean_vote": 0.11097237605610431,
+        "std_vote": 0.04789314824056317,
+        "cv_vote": 0.43157720815448547,
+        "weeks_count": 11
+      },
+      "Laurie Hernandez": {
+        "mean_vote": 0.19753638714385763,
+        "std_vote": 0.10976655470387418,
+        "cv_vote": 0.5556776464881669,
+        "weeks_count": 11
+      },
+      "Amber Rose": {
+        "mean_vote": 0.07578483341485831,
+        "std_vote": 0.037828449391877565,
+        "cv_vote": 0.4991559351301675,
+        "weeks_count": 6
+      },
+      "Rick Perry": {
+        "mean_vote": 0.06209961716175689,
+        "std_vote": 0.051062311248998224,
+        "cv_vote": 0.82226450955392,
+        "weeks_count": 3
+      },
+      "James Hinchcliffe": {
+        "mean_vote": 0.1106945838931959,
+        "std_vote": 0.053099788946652494,
+        "cv_vote": 0.47969635983171527,
+        "weeks_count": 11
+      },
+      "Babyface": {
+        "mean_vote": 0.0649177638424434,
+        "std_vote": 0.04274038621464002,
+        "cv_vote": 0.6583773636807904,
+        "weeks_count": 4
+      },
+      "Vanilla Ice": {
+        "mean_vote": 0.09411658426839549,
+        "std_vote": 0.0218533663508339,
+        "cv_vote": 0.2321946394539129,
+        "weeks_count": 4
+      },
+      "Jana Kramer": {
+        "mean_vote": 0.224086595158086,
+        "std_vote": 0.11707655736373149,
+        "cv_vote": 0.52246122656796,
+        "weeks_count": 11
+      },
+      "Terra Jole": {
+        "mean_vote": 0.08438664278881904,
+        "std_vote": 0.02510470434819314,
+        "cv_vote": 0.2974961856347179,
+        "weeks_count": 10
+      },
+      "Charo": {
+        "mean_vote": 0.058746159643204364,
+        "std_vote": 0.049346032203939336,
+        "cv_vote": 0.8399873711514619,
+        "weeks_count": 3
+      },
+      "Mr. T": {
+        "mean_vote": 0.07207965063274992,
+        "std_vote": 0.046839650937029256,
+        "cv_vote": 0.6498318252911637,
+        "weeks_count": 4
+      },
+      "Heather Morris": {
+        "mean_vote": 0.07277726320823931,
+        "std_vote": 0.03707862400061733,
+        "cv_vote": 0.5094808785887343,
+        "weeks_count": 6
+      },
+      "Nancy Kerrigan": {
+        "mean_vote": 0.08298577509451806,
+        "std_vote": 0.028438118422333,
+        "cv_vote": 0.34268666394864566,
+        "weeks_count": 7
+      },
+      "Bonner Bolton": {
+        "mean_vote": 0.14401889273898758,
+        "std_vote": 0.06497595623928057,
+        "cv_vote": 0.4511627259698465,
+        "weeks_count": 8
+      },
+      "Simone Biles": {
+        "mean_vote": 0.11926673861455285,
+        "std_vote": 0.04685673247644534,
+        "cv_vote": 0.39287342825628263,
+        "weeks_count": 9
+      },
+      "David Ross": {
+        "mean_vote": 0.1973251377530457,
+        "std_vote": 0.14961942770388537,
+        "cv_vote": 0.758238050192751,
+        "weeks_count": 10
+      },
+      "Rashad Jennings": {
+        "mean_vote": 0.15434063220869457,
+        "std_vote": 0.0587653194440152,
+        "cv_vote": 0.3807508016719445,
+        "weeks_count": 10
+      },
+      "Chris Kattan": {
+        "mean_vote": 0.04370963729981024,
+        "std_vote": 0.05692986846084542,
+        "cv_vote": 1.3024557506701748,
+        "weeks_count": 2
+      },
+      "Erika Jayne": {
+        "mean_vote": 0.07392641099232661,
+        "std_vote": 0.0418396041836567,
+        "cv_vote": 0.5659628760822646,
+        "weeks_count": 5
+      },
+      "Normani": {
+        "mean_vote": 0.1610643598212978,
+        "std_vote": 0.07073254137791733,
+        "cv_vote": 0.43915700193634183,
+        "weeks_count": 10
+      },
+      "Nick Viall": {
+        "mean_vote": 0.10113921382768405,
+        "std_vote": 0.011510810443676835,
+        "cv_vote": 0.1138115475495823,
+        "weeks_count": 7
+      },
+      "Sasha Pieterse": {
+        "mean_vote": 0.07275887560455384,
+        "std_vote": 0.04120310666283977,
+        "cv_vote": 0.5662966383205206,
+        "weeks_count": 5
+      },
+      "Frankie Muniz": {
+        "mean_vote": 0.1430579883647249,
+        "std_vote": 0.10058150451536887,
+        "cv_vote": 0.7030820555014191,
+        "weeks_count": 10
+      },
+      "Jordan Fisher": {
+        "mean_vote": 0.12533072549622362,
+        "std_vote": 0.04436733761050052,
+        "cv_vote": 0.35400208077338036,
+        "weeks_count": 10
+      },
+      "Derek Fisher": {
+        "mean_vote": 0.06419929116279587,
+        "std_vote": 0.04312672389570473,
+        "cv_vote": 0.6717632409109386,
+        "weeks_count": 4
+      },
+      "Nikki Bella": {
+        "mean_vote": 0.07761704767137441,
+        "std_vote": 0.036751781957229716,
+        "cv_vote": 0.4735014157306575,
+        "weeks_count": 7
+      },
+      "Terrell Owens": {
+        "mean_vote": 0.08925276749296265,
+        "std_vote": 0.04527763069242304,
+        "cv_vote": 0.5072966582912184,
+        "weeks_count": 8
+      },
+      "Victoria Arlen": {
+        "mean_vote": 0.11946745618009487,
+        "std_vote": 0.08615495185497718,
+        "cv_vote": 0.7211583355813675,
+        "weeks_count": 9
+      },
+      "Barbara Corcoran": {
+        "mean_vote": 0.04084184044078597,
+        "std_vote": 0.053723746055063075,
+        "cv_vote": 1.3154095279558662,
+        "weeks_count": 2
+      },
+      "Lindsey Stirling": {
+        "mean_vote": 0.15167714288621925,
+        "std_vote": 0.09772875294689737,
+        "cv_vote": 0.6443208982398138,
+        "weeks_count": 10
+      },
+      "Debbie Gibson": {
+        "mean_vote": 0.0787245150694566,
+        "std_vote": 0.006688157984162143,
+        "cv_vote": 0.08495648373650005,
+        "weeks_count": 2
+      },
+      "Nick Lachey": {
+        "mean_vote": 0.09891312414849779,
+        "std_vote": 0.053888491290519806,
+        "cv_vote": 0.544806280808776,
+        "weeks_count": 6
+      },
+      "Drew Scott": {
+        "mean_vote": 0.11616903804394012,
+        "std_vote": 0.03805949677101864,
+        "cv_vote": 0.32762169173358313,
+        "weeks_count": 10
+      },
+      "Vanessa Lachey": {
+        "mean_vote": 0.12169992489132794,
+        "std_vote": 0.047988554062385703,
+        "cv_vote": 0.394318682655204,
+        "weeks_count": 7
+      },
+      "Kareem Abdul-Jabbar": {
+        "mean_vote": 0.07233171697963399,
+        "std_vote": 0.07617162925323491,
+        "cv_vote": 1.0530875310851822,
+        "weeks_count": 2
+      },
+      "Arike Ogunbowale": {
+        "mean_vote": 0.124772546219895,
+        "std_vote": 0.019670275071024326,
+        "cv_vote": 0.1576490635717098,
+        "weeks_count": 2
+      },
+      "Jennie Finch Daigle": {
+        "mean_vote": 0.08792135943487321,
+        "std_vote": 0.04954966682775872,
+        "cv_vote": 0.5635680242690299,
+        "weeks_count": 3
+      },
+      "Chris Mazdzer": {
+        "mean_vote": 0.153312824793498,
+        "std_vote": 0.03748486545193258,
+        "cv_vote": 0.24449921591636029,
+        "weeks_count": 3
+      },
+      "Mirai Nagasu": {
+        "mean_vote": 0.12714243441129,
+        "std_vote": 0.026895771018445678,
+        "cv_vote": 0.2115404753966028,
+        "weeks_count": 3
+      },
+      "Tonya Harding": {
+        "mean_vote": 0.20250950626232472,
+        "std_vote": 0.09908118281132663,
+        "cv_vote": 0.4892668232718905,
+        "weeks_count": 4
+      },
+      "Josh Norman": {
+        "mean_vote": 0.20562883927857878,
+        "std_vote": 0.11072358843473662,
+        "cv_vote": 0.5384633246153384,
+        "weeks_count": 4
+      },
+      "Adam Rippon": {
+        "mean_vote": 0.1850385973321245,
+        "std_vote": 0.08927448372496863,
+        "cv_vote": 0.4824641183629947,
+        "weeks_count": 4
+      },
+      "Juan Pablo Di Pace": {
+        "mean_vote": 0.0716022553273294,
+        "std_vote": 0.028478807401632843,
+        "cv_vote": 0.39773617844077813,
+        "weeks_count": 8
+      },
+      "Evanna Lynch": {
+        "mean_vote": 0.09158227360886163,
+        "std_vote": 0.02680350803769196,
+        "cv_vote": 0.29267135419859697,
+        "weeks_count": 9
+      },
+      "Nancy McKeon": {
+        "mean_vote": 0.05982738155222416,
+        "std_vote": 0.04990854358582955,
+        "cv_vote": 0.8342090576413357,
+        "weeks_count": 3
+      },
+      "John Schneider": {
+        "mean_vote": 0.09618079404391604,
+        "std_vote": 0.038805660721515825,
+        "cv_vote": 0.40346579696355184,
+        "weeks_count": 7
+      },
+      "Milo Manheim": {
+        "mean_vote": 0.0724675573258288,
+        "std_vote": 0.05459800676745431,
+        "cv_vote": 0.7534130965939784,
+        "weeks_count": 9
+      },
+      "Danelle Umstead": {
+        "mean_vote": 0.03981818377344555,
+        "std_vote": 0.049706080177607866,
+        "cv_vote": 1.2483261532073313,
+        "weeks_count": 2
+      },
+      "Mary Lou Retton": {
+        "mean_vote": 0.09706514717045761,
+        "std_vote": 0.04876989550422741,
+        "cv_vote": 0.5024449756263373,
+        "weeks_count": 6
+      },
+      "DeMarcus Ware": {
+        "mean_vote": 0.098775384660737,
+        "std_vote": 0.015160474432038738,
+        "cv_vote": 0.15348433705533313,
+        "weeks_count": 7
+      },
+      "Bobby Bones": {
+        "mean_vote": 0.18973653664827642,
+        "std_vote": 0.10559952799537148,
+        "cv_vote": 0.5565587411934598,
+        "weeks_count": 9
+      },
+      "Tinashe": {
+        "mean_vote": 0.0593639700579715,
+        "std_vote": 0.03978889618587305,
+        "cv_vote": 0.6702532891081486,
+        "weeks_count": 4
+      },
+      "Alexis Ren": {
+        "mean_vote": 0.13304067422261492,
+        "std_vote": 0.044154936531356,
+        "cv_vote": 0.3318905048351771,
+        "weeks_count": 9
+      },
+      "Joe Amabile": {
+        "mean_vote": 0.19979764480558376,
+        "std_vote": 0.09811887540786511,
+        "cv_vote": 0.49109125136755855,
+        "weeks_count": 8
+      },
+      "Kate Flannery": {
+        "mean_vote": 0.08945623590985596,
+        "std_vote": 0.03618090191055118,
+        "cv_vote": 0.4044536587366616,
+        "weeks_count": 8
+      },
+      "James Van Der Beek": {
+        "mean_vote": 0.11242870471935576,
+        "std_vote": 0.02109752060728617,
+        "cv_vote": 0.18765243858274225,
+        "weeks_count": 10
+      },
+      "Kel Mitchell": {
+        "mean_vote": 0.13970378904195002,
+        "std_vote": 0.054178686600368876,
+        "cv_vote": 0.38781114651156806,
+        "weeks_count": 11
+      },
+      "Ray Lewis": {
+        "mean_vote": 0.08817738457361204,
+        "std_vote": 0.007770563629369823,
+        "cv_vote": 0.08812422444762828,
+        "weeks_count": 2
+      },
+      "Lamar Odom": {
+        "mean_vote": 0.07986626821131808,
+        "std_vote": 0.033281095134710934,
+        "cv_vote": 0.4167102818257705,
+        "weeks_count": 4
+      },
+      "Sailor Brinkley-Cook": {
+        "mean_vote": 0.09880945838956152,
+        "std_vote": 0.010553570107606653,
+        "cv_vote": 0.10680728626199572,
+        "weeks_count": 6
+      },
+      "Sean Spicer": {
+        "mean_vote": 0.14175416372865277,
+        "std_vote": 0.05187243967224609,
+        "cv_vote": 0.3659323882121786,
+        "weeks_count": 9
+      },
+      "Mary Wilson": {
+        "mean_vote": 0.048072696714133105,
+        "std_vote": 0.04888871098379699,
+        "cv_vote": 1.0169745890170538,
+        "weeks_count": 2
+      },
+      "Lauren Alaina": {
+        "mean_vote": 0.14642452235473497,
+        "std_vote": 0.0696420558244083,
+        "cv_vote": 0.47561743555283836,
+        "weeks_count": 11
+      },
+      "Ally Brooke": {
+        "mean_vote": 0.1129740231457206,
+        "std_vote": 0.027478539308947204,
+        "cv_vote": 0.24322882857330622,
+        "weeks_count": 11
+      },
+      "Karamo Brown": {
+        "mean_vote": 0.09340338209292184,
+        "std_vote": 0.036549442534196404,
+        "cv_vote": 0.39130748496703677,
+        "weeks_count": 7
+      },
+      "Hannah Brown": {
+        "mean_vote": 0.15050038650860365,
+        "std_vote": 0.07356340331054934,
+        "cv_vote": 0.48879212218065593,
+        "weeks_count": 11
+      },
+      "Anne Heche": {
+        "mean_vote": 0.0554888610739277,
+        "std_vote": 0.033018520256886716,
+        "cv_vote": 0.5950477198098589,
+        "weeks_count": 4
+      },
+      "Jesse Metcalfe": {
+        "mean_vote": 0.0671954910922216,
+        "std_vote": 0.02824775409357917,
+        "cv_vote": 0.42038168981920077,
+        "weeks_count": 5
+      },
+      "Chrishell Stause": {
+        "mean_vote": 0.07688941118132675,
+        "std_vote": 0.034233821604868264,
+        "cv_vote": 0.44523453982675626,
+        "weeks_count": 8
+      },
+      "Skai Jackson": {
+        "mean_vote": 0.11747481320632276,
+        "std_vote": 0.054001217285114776,
+        "cv_vote": 0.45968336370343177,
+        "weeks_count": 10
+      },
+      "Justina Machado": {
+        "mean_vote": 0.09557265167647457,
+        "std_vote": 0.03799123518549649,
+        "cv_vote": 0.39751157385589336,
+        "weeks_count": 11
+      },
+      "Charles Oakley": {
+        "mean_vote": 0.043137630119618346,
+        "std_vote": 0.03726755648254288,
+        "cv_vote": 0.8639222038670631,
+        "weeks_count": 2
+      },
+      "Veron Davis": {
+        "mean_vote": 0.06387358335073562,
+        "std_vote": 0.02554778686742782,
+        "cv_vote": 0.39997422294507284,
+        "weeks_count": 6
+      },
+      "Johnny Weir": {
+        "mean_vote": 0.096398201237541,
+        "std_vote": 0.024140873023249236,
+        "cv_vote": 0.2504286668561601,
+        "weeks_count": 10
+      },
+      "Nev Schulman": {
+        "mean_vote": 0.10665709112753657,
+        "std_vote": 0.048823171817528384,
+        "cv_vote": 0.45775832906550445,
+        "weeks_count": 11
+      },
+      "AJ McLean": {
+        "mean_vote": 0.08695347264638989,
+        "std_vote": 0.022261768672514646,
+        "cv_vote": 0.25601931694028673,
+        "weeks_count": 9
+      },
+      "Nelly": {
+        "mean_vote": 0.16706641799378827,
+        "std_vote": 0.11512938566141498,
+        "cv_vote": 0.6891234458962041,
+        "weeks_count": 11
+      },
+      "Kaitlyn Bristowe": {
+        "mean_vote": 0.10805026025533161,
+        "std_vote": 0.04385001836752357,
+        "cv_vote": 0.4058298264520825,
+        "weeks_count": 11
+      },
+      "Carole Baskin": {
+        "mean_vote": 0.05305930577613796,
+        "std_vote": 0.030048564535170137,
+        "cv_vote": 0.5663203484408138,
+        "weeks_count": 3
+      },
+      "Monica Aldama": {
+        "mean_vote": 0.07345828121976641,
+        "std_vote": 0.020093257909550192,
+        "cv_vote": 0.27353291658753687,
+        "weeks_count": 7
+      },
+      "Jeannie Mai": {
+        "mean_vote": 0.07313244782021765,
+        "std_vote": 0.00754948725083076,
+        "cv_vote": 0.10323033722855487,
+        "weeks_count": 7
+      },
+      "Martin Kove": {
+        "mean_vote": 0.0414393199727341,
+        "std_vote": 0.0370666542949975,
+        "cv_vote": 0.894480274275406,
+        "weeks_count": 2
+      },
+      "Brian Austin Green": {
+        "mean_vote": 0.07261772287827457,
+        "std_vote": 0.03563112965293572,
+        "cv_vote": 0.49066712973997245,
+        "weeks_count": 4
+      },
+      "Melora Hardin": {
+        "mean_vote": 0.07511944964823174,
+        "std_vote": 0.017219990119889794,
+        "cv_vote": 0.2292347747557698,
+        "weeks_count": 9
+      },
+      "Matt James": {
+        "mean_vote": 0.08761953181812902,
+        "std_vote": 0.01976624967018232,
+        "cv_vote": 0.2255918202257794,
+        "weeks_count": 4
+      },
+      "Mike \"The Miz\" Mizanin": {
+        "mean_vote": 0.07771545050745934,
+        "std_vote": 0.026861099803531747,
+        "cv_vote": 0.3456339714707508,
+        "weeks_count": 7
+      },
+      "Suni Lee": {
+        "mean_vote": 0.04927971640683532,
+        "std_vote": 0.01665154517442287,
+        "cv_vote": 0.3378985592561816,
+        "weeks_count": 9
+      },
+      "Iman Shumpert": {
+        "mean_vote": 0.18290306555556302,
+        "std_vote": 0.11562230106945018,
+        "cv_vote": 0.6321507008001787,
+        "weeks_count": 10
+      },
+      "Cody Rigsby": {
+        "mean_vote": 0.2625620670581825,
+        "std_vote": 0.14549143780348903,
+        "cv_vote": 0.5541220764812489,
+        "weeks_count": 10
+      },
+      "Melanie C": {
+        "mean_vote": 0.05770692516689459,
+        "std_vote": 0.03385496669141137,
+        "cv_vote": 0.5866707781344994,
+        "weeks_count": 5
+      },
+      "Jimmie Allen": {
+        "mean_vote": 0.10376724727452274,
+        "std_vote": 0.025987352651080268,
+        "cv_vote": 0.2504388748246265,
+        "weeks_count": 8
+      },
+      "Olivia Jade": {
+        "mean_vote": 0.06877582566089245,
+        "std_vote": 0.01197880234970316,
+        "cv_vote": 0.17417169818892614,
+        "weeks_count": 8
+      },
+      "JoJo Siwa": {
+        "mean_vote": 0.06769717594036782,
+        "std_vote": 0.01881247711873707,
+        "cv_vote": 0.27789160858509593,
+        "weeks_count": 10
+      },
+      "Christine Chiu": {
+        "mean_vote": 0.0473186623634457,
+        "std_vote": 0.04021192789632993,
+        "cv_vote": 0.8498111714881057,
+        "weeks_count": 3
+      },
+      "Kenya Moore": {
+        "mean_vote": 0.05578728365084274,
+        "std_vote": 0.022634138635766993,
+        "cv_vote": 0.4057221853178556,
+        "weeks_count": 6
+      },
+      "Amanda Kloots": {
+        "mean_vote": 0.03353897093667623,
+        "std_vote": 0.01979828603588259,
+        "cv_vote": 0.5903069021784553,
+        "weeks_count": 10
+      },
+      "Cheryl Ladd": {
+        "mean_vote": 0.05459147044183207,
+        "std_vote": 0.03782337318556927,
+        "cv_vote": 0.69284400803731,
+        "weeks_count": 3
+      },
+      "Selma Blair": {
+        "mean_vote": 0.07361642292239316,
+        "std_vote": 0.008381064714902357,
+        "cv_vote": 0.11384775817941767,
+        "weeks_count": 5
+      },
+      "Joseph Baena": {
+        "mean_vote": 0.06738355254507115,
+        "std_vote": 0.03392586777153659,
+        "cv_vote": 0.5034740153963304,
+        "weeks_count": 5
+      },
+      "Trevor Donovan": {
+        "mean_vote": 0.08977632864942259,
+        "std_vote": 0.026325956461682797,
+        "cv_vote": 0.2932393968179063,
+        "weeks_count": 9
+      },
+      "Daniel Durant": {
+        "mean_vote": 0.09159139932349147,
+        "std_vote": 0.03117860381551259,
+        "cv_vote": 0.3404097332915828,
+        "weeks_count": 9
+      },
+      "Wayne Brady": {
+        "mean_vote": 0.11976272824845587,
+        "std_vote": 0.06310401966367261,
+        "cv_vote": 0.5269086683860363,
+        "weeks_count": 10
+      },
+      "Sam Champion": {
+        "mean_vote": 0.06418577969354035,
+        "std_vote": 0.027640339341561248,
+        "cv_vote": 0.4306302653567823,
+        "weeks_count": 4
+      },
+      "Jessie James Decker": {
+        "mean_vote": 0.0827781736658343,
+        "std_vote": 0.025507785261879145,
+        "cv_vote": 0.3081462676967368,
+        "weeks_count": 6
+      },
+      "Jordin Sparks": {
+        "mean_vote": 0.07310077122329388,
+        "std_vote": 0.028891731807510153,
+        "cv_vote": 0.3952315594490428,
+        "weeks_count": 7
+      },
+      "Heidi D'Amelio": {
+        "mean_vote": 0.0823719282884271,
+        "std_vote": 0.03176182940480476,
+        "cv_vote": 0.385590456175677,
+        "weeks_count": 8
+      },
+      "Charli D'Amelio": {
+        "mean_vote": 0.13050412106342718,
+        "std_vote": 0.08000770850525539,
+        "cv_vote": 0.6130665288827952,
+        "weeks_count": 10
+      },
+      "Teresa Giudice": {
+        "mean_vote": 0.038897132244970406,
+        "std_vote": 0.03619878712296765,
+        "cv_vote": 0.9306286873538945,
+        "weeks_count": 2
+      },
+      "Vinny Guadagnino": {
+        "mean_vote": 0.11618848410201045,
+        "std_vote": 0.04356511810026385,
+        "cv_vote": 0.3749521171307719,
+        "weeks_count": 8
+      },
+      "Shangela": {
+        "mean_vote": 0.10572782288716986,
+        "std_vote": 0.05357644580926733,
+        "cv_vote": 0.5067393269455931,
+        "weeks_count": 10
+      },
+      "Gabby Windey": {
+        "mean_vote": 0.09940918645198288,
+        "std_vote": 0.04869685079033275,
+        "cv_vote": 0.48986268300117863,
+        "weeks_count": 10
+      },
+      "Jamie Lynn Spears": {
+        "mean_vote": 0.039234347548354746,
+        "std_vote": 0.045404359841356386,
+        "cv_vote": 1.1572604791094678,
+        "weeks_count": 2
+      },
+      "Mira Sorvino": {
+        "mean_vote": 0.07656507318294829,
+        "std_vote": 0.03085177785625172,
+        "cv_vote": 0.4029484538274128,
+        "weeks_count": 5
+      },
+      "Barry Williams": {
+        "mean_vote": 0.11325348395893337,
+        "std_vote": 0.044729876489133465,
+        "cv_vote": 0.3949536466829831,
+        "weeks_count": 8
+      },
+      "Alyson Hannigan": {
+        "mean_vote": 0.1542764431245988,
+        "std_vote": 0.06023454681485097,
+        "cv_vote": 0.39043256115389924,
+        "weeks_count": 11
+      },
+      "Xochitl Gomez": {
+        "mean_vote": 0.17483623742181204,
+        "std_vote": 0.10995009387758369,
+        "cv_vote": 0.628874743010608,
+        "weeks_count": 11
+      },
+      "Adrian Peterson": {
+        "mean_vote": 0.05918951907903102,
+        "std_vote": 0.03794716290233067,
+        "cv_vote": 0.6411128776306302,
+        "weeks_count": 4
+      },
+      "Tyson Beckford": {
+        "mean_vote": 0.0696956696538073,
+        "std_vote": 0.033577712209273546,
+        "cv_vote": 0.4817761616476452,
+        "weeks_count": 3
+      },
+      "Jason Mraz": {
+        "mean_vote": 0.08373552907430085,
+        "std_vote": 0.016512149727663405,
+        "cv_vote": 0.19719406935390257,
+        "weeks_count": 11
+      },
+      "Lele Pons": {
+        "mean_vote": 0.09182926648980001,
+        "std_vote": 0.044019724899701344,
+        "cv_vote": 0.47936487551701024,
+        "weeks_count": 7
+      },
+      "Harry Jowsey": {
+        "mean_vote": 0.12442426638644033,
+        "std_vote": 0.03527053914720447,
+        "cv_vote": 0.2834699385541101,
+        "weeks_count": 9
+      },
+      "Mauricio Umansky": {
+        "mean_vote": 0.10418987379284783,
+        "std_vote": 0.04706682084617726,
+        "cv_vote": 0.4517408374997781,
+        "weeks_count": 6
+      },
+      "Charity Lawson": {
+        "mean_vote": 0.08076662493550445,
+        "std_vote": 0.020014864811445553,
+        "cv_vote": 0.24781108319715311,
+        "weeks_count": 11
+      },
+      "Ariana Madix": {
+        "mean_vote": 0.12314511322673627,
+        "std_vote": 0.05947286212623112,
+        "cv_vote": 0.48294942907502114,
+        "weeks_count": 11
+      },
+      "Tori Spelling": {
+        "mean_vote": 0.042649097658814576,
+        "std_vote": 0.05192058777058096,
+        "cv_vote": 1.2173900649888705,
+        "weeks_count": 2
+      },
+      "Eric Roberts": {
+        "mean_vote": 0.0651075903068263,
+        "std_vote": 0.03734654953387407,
+        "cv_vote": 0.5736128361973554,
+        "weeks_count": 3
+      },
+      "Reginald VelJohnson": {
+        "mean_vote": 0.11748715416783657,
+        "std_vote": 0.03744943182338049,
+        "cv_vote": 0.31875341681935715,
+        "weeks_count": 3
+      },
+      "Chandler Kinney": {
+        "mean_vote": 0.1508789280232415,
+        "std_vote": 0.056733543992263935,
+        "cv_vote": 0.37602032792494827,
+        "weeks_count": 9
+      },
+      "Dwight Howard��": {
+        "mean_vote": 0.1216044493447321,
+        "std_vote": 0.05859538696754795,
+        "cv_vote": 0.48185232763513436,
+        "weeks_count": 7
+      },
+      "Danny Amendola": {
+        "mean_vote": 0.1347847558360862,
+        "std_vote": 0.05259135547806964,
+        "cv_vote": 0.3901877118954519,
+        "weeks_count": 9
+      },
+      "Stephen Nedoroscik": {
+        "mean_vote": 0.1562300182121301,
+        "std_vote": 0.07508619796224322,
+        "cv_vote": 0.48061312941979384,
+        "weeks_count": 9
+      },
+      "Ilona Maher": {
+        "mean_vote": 0.1644859884028605,
+        "std_vote": 0.07927153065743074,
+        "cv_vote": 0.4819348530968986,
+        "weeks_count": 9
+      },
+      "Anna Delvey": {
+        "mean_vote": 0.08377341500275096,
+        "std_vote": 0.013730822786057547,
+        "cv_vote": 0.16390429810706242,
+        "weeks_count": 2
+      },
+      "Brooks Nader": {
+        "mean_vote": 0.06134927368247155,
+        "std_vote": 0.03831620296997065,
+        "cv_vote": 0.6245583797501126,
+        "weeks_count": 4
+      },
+      "Phaedra Parks": {
+        "mean_vote": 0.07726755155244044,
+        "std_vote": 0.033610867148878086,
+        "cv_vote": 0.4349932989149636,
+        "weeks_count": 5
+      },
+      "Jenn Tran": {
+        "mean_vote": 0.09090522971625842,
+        "std_vote": 0.046102048191784296,
+        "cv_vote": 0.5071440701011609,
+        "weeks_count": 6
+      },
+      "Joey Graziadei": {
+        "mean_vote": 0.0792840167534701,
+        "std_vote": 0.03265766813057161,
+        "cv_vote": 0.41190733602863594,
+        "weeks_count": 9
+      },
+      "Corey Feldman": {
+        "mean_vote": 0.0453095315625022,
+        "std_vote": 0.036937052299057756,
+        "cv_vote": 0.8152159385736524,
+        "weeks_count": 2
+      },
+      "Danielle Fishel": {
+        "mean_vote": 0.10506189344214874,
+        "std_vote": 0.03748998257297264,
+        "cv_vote": 0.35683711138916524,
+        "weeks_count": 8
+      },
+      "Elaine Hendrix": {
+        "mean_vote": 0.12701673190566473,
+        "std_vote": 0.06991720139326531,
+        "cv_vote": 0.5504566236611471,
+        "weeks_count": 11
+      },
+      "Baron Davis": {
+        "mean_vote": 0.0743116826402404,
+        "std_vote": 0.006390586315820177,
+        "cv_vote": 0.08599706114526358,
+        "weeks_count": 2
+      },
+      "Jordan Chiles": {
+        "mean_vote": 0.10321483356100511,
+        "std_vote": 0.09385966999245979,
+        "cv_vote": 0.9093622181445853,
+        "weeks_count": 11
+      },
+      "Andy Richter": {
+        "mean_vote": 0.14923125171910917,
+        "std_vote": 0.05202627680477509,
+        "cv_vote": 0.34862856275374315,
+        "weeks_count": 9
+      },
+      "Robert Irwin": {
+        "mean_vote": 0.16280773180468866,
+        "std_vote": 0.07466433100446329,
+        "cv_vote": 0.4586043314824502,
+        "weeks_count": 11
+      },
+      "Hilaria Baldwin": {
+        "mean_vote": 0.05849962913778782,
+        "std_vote": 0.03859196057646655,
+        "cv_vote": 0.659695815943867,
+        "weeks_count": 4
+      },
+      "Lauren Jauregui": {
+        "mean_vote": 0.05508894843775347,
+        "std_vote": 0.03350472656216594,
+        "cv_vote": 0.6081932495049139,
+        "weeks_count": 3
+      },
+      "Scott Hoying": {
+        "mean_vote": 0.0923009930441668,
+        "std_vote": 0.03506317540959585,
+        "cv_vote": 0.3798786367641552,
+        "weeks_count": 6
+      },
+      "Alix Earle": {
+        "mean_vote": 0.08003449815581395,
+        "std_vote": 0.01717428606593202,
+        "cv_vote": 0.21458604054087427,
+        "weeks_count": 11
+      },
+      "Jen Affleck": {
+        "mean_vote": 0.0790648338269124,
+        "std_vote": 0.032267459753311876,
+        "cv_vote": 0.408113926147639,
+        "weeks_count": 7
+      },
+      "Whitney Leavitt": {
+        "mean_vote": 0.06450247079265523,
+        "std_vote": 0.024479559370072443,
+        "cv_vote": 0.3795135142770358,
+        "weeks_count": 10
+      },
+      "Dylan Efron": {
+        "mean_vote": 0.11107450400382439,
+        "std_vote": 0.03975302504251169,
+        "cv_vote": 0.35789513893434055,
+        "weeks_count": 11
+      }
+    },
+    "weekly_consistency": {
