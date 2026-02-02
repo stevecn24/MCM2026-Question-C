@@ -1,0 +1,15 @@
+industry_group,avg_judge_score,Fan_Vote_Mean,final_placement,judge_fan_alignment,celebrity_name,alignment_abs
+Actors,7.562,0.106,6.75,0.65,128,0.65
+Athletes,7.479,0.118,6.268,0.63,97,0.63
+Business,6.056,0.071,10.0,0.535,4,0.535
+Comedians,6.175,0.096,8.75,0.522,12,0.522
+Fashion,6.625,0.076,10.0,0.587,1,0.587
+Journalists,6.616,0.065,9.0,0.596,4,0.596
+Models,6.928,0.084,8.882,0.609,17,0.609
+Other,7.346,0.141,6.083,0.593,12,0.593
+Politicians,5.723,0.094,10.333,0.479,3,0.479
+Professionals,8.167,0.153,3.0,0.664,1,0.664
+Radio Personalities,6.439,0.088,8.25,0.556,4,0.556
+Singers,7.605,0.104,6.806,0.656,62,0.656
+Social Media,8.648,0.089,5.0,0.776,9,0.776
+TV Personalities,7.235,0.101,6.687,0.622,67,0.622

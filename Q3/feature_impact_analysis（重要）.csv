@@ -1,0 +1,42 @@
+Feature,Category,Avg_Judge_Score,Avg_Fan_Vote,Judge_Fan_Alignment,Success_Score,Judge_Rank,Fan_Rank,Success_Rank,Rank_Gap,Sample_Size
+industry_group,Actors,7.562,0.106,0.65,4.961,4,4,5,0,128
+industry_group,Athletes,7.479,0.118,0.63,4.959,5,3,6,2,97
+industry_group,Business,6.056,0.071,0.535,3.918,13,13,13,0,4
+industry_group,Comedians,6.175,0.096,0.522,4.087,12,7,12,5,12
+industry_group,Fashion,6.625,0.076,0.587,4.277,9,12,9,3,1
+industry_group,Journalists,6.616,0.065,0.596,4.231,10,14,10,4,4
+industry_group,Models,6.928,0.084,0.609,4.494,8,11,8,3,17
+industry_group,Other,7.346,0.141,0.593,4.973,6,2,4,4,12
+industry_group,Politicians,5.723,0.094,0.479,3.808,14,8,14,6,3
+industry_group,Professionals,8.167,0.153,0.664,5.512,2,1,2,1,1
+industry_group,Radio Personalities,6.439,0.088,0.556,4.216,11,10,11,1,4
+industry_group,Singers,7.605,0.104,0.656,4.98,3,5,3,2,62
+industry_group,Social Media,8.648,0.089,0.776,5.544,1,9,1,8,9
+industry_group,TV Personalities,7.235,0.101,0.622,4.747,7,6,7,1,67
+age_group,<20,8.684,0.13,0.738,5.73,1,1,1,0,23
+age_group,20-24,8.154,0.112,0.703,5.342,2,4,2,2,44
+age_group,25-29,8.021,0.117,0.685,5.282,3,2,3,1,60
+age_group,30-34,7.571,0.114,0.643,5.0,5,3,5,2,75
+age_group,35-39,7.619,0.108,0.654,5.003,4,5,4,1,51
+age_group,40-44,7.047,0.105,0.6,4.646,6,6,6,0,49
+age_group,45-49,6.942,0.093,0.602,4.536,7,7,7,0,40
+age_group,50-59,6.471,0.084,0.563,4.218,8,9,8,1,44
+age_group,60+,6.057,0.089,0.516,3.992,9,8,9,1,35
+region,Asia,7.704,0.125,0.646,5.122,3,3,3,0,3
+region,Europe,7.461,0.094,0.652,4.851,4,5,5,1,20
+region,Latin America,7.762,0.146,0.63,5.242,2,1,2,1,8
+region,North America,7.381,0.107,0.631,4.855,5,4,4,1,374
+region,Oceania,8.138,0.131,0.683,5.406,1,2,1,1,5
+region,Other,7.306,0.071,0.66,4.667,6,6,6,0,11
+partner_experience,Mid Tier,7.5,0.116,0.634,4.963,2,1,2,1,104
+partner_experience,Other,7.138,0.096,0.618,4.666,3,3,3,0,195
+partner_experience,Top Tier,7.737,0.115,0.659,5.101,1,2,1,1,122
+performance_type,Average Performer,7.461,0.107,0.639,4.904,2,3,2,1,370
+performance_type,Consistent Improver,5.58,0.06,0.498,3.588,5,6,5,1,9
+performance_type,Consistent Performer,6.141,0.066,0.548,3.95,4,5,4,1,8
+performance_type,Peaky Performer,8.63,0.132,0.731,5.706,1,1,1,0,21
+performance_type,Volatile Decliner,4.389,0.097,0.342,3.021,6,4,6,2,3
+performance_type,Volatile Improver,6.34,0.113,0.521,4.255,3,2,3,1,9
+performance_type,Volatile Performer,4.333,0.053,0.38,2.812,7,7,7,0,1
+performance_category,"Judge Favorite (High Judge, Low Fan)",8.707,0.132,0.739,5.752,1,1,1,0,163
+performance_category,Underperformer,6.576,0.09,0.568,4.306,2,2,2,0,258
