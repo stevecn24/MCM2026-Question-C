@@ -1,0 +1,675 @@
+{
+  "analysis_summary": {
+    "total_seasons": 10,
+    "successful_seasons": 20,
+    "total_systems": 2,
+    "total_data_points": 397,
+    "analysis_date": "2026-02-01",
+    "analysis_version": "3.0-optimized",
+    "model_features": {
+      "time_evolution": true,
+      "warmup_period": 3,
+      "rcv_scoring": true,
+      "decay_type": "exponential"
+    }
+  },
+  "systems_metrics": {
+    "Optimized Zone System": {
+      "Fairness Metrics": {
+        "Judge-Fan Correlation": 0.6862735218325926,
+        "Zone Change Stability": 0.6635164835164835,
+        "Exemption Fairness": 0.33
+      },
+      "Entertainment Metrics": {
+        "Surprise Eliminations": 0.4600000000000001,
+        "Ranking Volatility": 0.26138888888888884,
+        "Exemption Usage": 0.21000000000000002
+      },
+      "Participation Metrics": {
+        "Voting Impact Variance": 0.4520138522282225,
+        "Time Evolution Impact": 0.074940165719006
+      },
+      "Technical Metrics": {
+        "System Stability": 0.2314374508103815,
+        "Model Complexity": 0.7999999999999999,
+        "Interpretability": 0.75,
+        "Transparency": 0.7000000000000001
+      },
+      "Model Performance Metrics": {
+        "RCV Convergence": 0.8050204918019327,
+        "Time Weight Coverage": 1.1999999999999997,
+        "Model Robustness": 0.8499999999999999
+      },
+      "Overall Score": 0.46866727951604253
+    },
+    "Optimized Current System": {
+      "Fairness Metrics": {
+        "Judge-Fan Correlation": 0.695946836409471,
+        "Zone Change Stability": 0.5,
+        "Exemption Fairness": 0.0
+      },
+      "Entertainment Metrics": {
+        "Surprise Eliminations": 0.2,
+        "Ranking Volatility": 0.2509259259259259,
+        "Exemption Usage": 0.0
+      },
+      "Participation Metrics": {
+        "Voting Impact Variance": 0.3685522803067204,
+        "Time Evolution Impact": 0.07514639476837799
+      },
+      "Technical Metrics": {
+        "System Stability": 0.2321384896243155,
+        "Model Complexity": 0.7000000000000001,
+        "Interpretability": 0.7999999999999999,
+        "Transparency": 0.5999999999999999
+      },
+      "Model Performance Metrics": {
+        "RCV Convergence": 0.8273774090634927,
+        "Time Weight Coverage": 1.0,
+        "Model Robustness": 0.7999999999999999
+      },
+      "Overall Score": 0.35851688772855256
+    }
+  },
+  "comparison_data": {
+    "improvements": {
+      "Overall Score": 30.723906057917482,
+      "Fairness Metrics": 40.45691281664514,
+      "Entertainment Metrics": 106.55030800821355,
+      "Participation Metrics": 18.76393767865968,
+      "Model Performance Metrics": 8.664270384344258
+    },
+    "season_trends": {
+      "Optimized Zone System": {
+        "1": 0.40838896729190555,
+        "2": 0.4989785565074504,
+        "3": 0.46263458513873446,
+        "4": 0.4597743075438417,
+        "5": 0.4222993731500614,
+        "6": 0.5444743815330725,
+        "7": 0.5481799655421892,
+        "8": 0.4635294270641147,
+        "9": 0.3949116244897656,
+        "10": 0.48350160689928995
+      },
+      "Optimized Current System": {
+        "1": 0.2930971188126334,
+        "2": 0.3780803662839628,
+        "3": 0.377875204761398,
+        "4": 0.34579562589588697,
+        "5": 0.3609303255310138,
+        "6": 0.35248800272566183,
+        "7": 0.36776329887552256,
+        "8": 0.36274951253420024,
+        "9": 0.32413781496595606,
+        "10": 0.42225160689929
+      }
+    }
+  },
+  "all_metrics": {
+    "Optimized Zone System": {
+      "1": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.6265626018234002,
+          "Zone Change Stability": 0.6153846153846154,
+          "Exemption Fairness": 0.2
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.4,
+          "Ranking Volatility": 0.19444444444444445,
+          "Exemption Usage": 0.1
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.28391309588357255,
+          "Time Evolution Impact": 0.11046756182228874
+        },
+        "Technical Metrics": {
+          "System Stability": 0.18661933696562025,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8333242869008128,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.40838896729190555
+      },
+      "2": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.3578375837208273,
+          "Zone Change Stability": 0.5714285714285714,
+          "Exemption Fairness": 0.6
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.4,
+          "Ranking Volatility": 0.4083333333333334,
+          "Exemption Usage": 0.3
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.7127816358024691,
+          "Time Evolution Impact": 0.06569990880880686
+        },
+        "Technical Metrics": {
+          "System Stability": 0.2947204822509892,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.7328787424614566,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.4989785565074504
+      },
+      "3": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.8716809168941813,
+          "Zone Change Stability": 0.6923076923076923,
+          "Exemption Fairness": 0.2
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.6,
+          "Ranking Volatility": 0.32222222222222224,
+          "Exemption Usage": 0.2
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.2226420896135481,
+          "Time Evolution Impact": 0.05880380546002704
+        },
+        "Technical Metrics": {
+          "System Stability": 0.18074830897955957,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8530328327402809,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.46263458513873446
+      },
+      "4": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.6353323860920758,
+          "Zone Change Stability": 0.6923076923076923,
+          "Exemption Fairness": 0.4
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.6,
+          "Ranking Volatility": 0.2259259259259259,
+          "Exemption Usage": 0.2
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.2284136357641518,
+          "Time Evolution Impact": 0.10312546600516606
+        },
+        "Technical Metrics": {
+          "System Stability": 0.24702464494202683,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8794540609596697,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.4597743075438417
+      },
+      "5": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.6922410239405067,
+          "Zone Change Stability": 0.1428571428571429,
+          "Exemption Fairness": 0.6
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.2,
+          "Ranking Volatility": 0.3833333333333333,
+          "Exemption Usage": 0.3
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.2509413580246914,
+          "Time Evolution Impact": 0.12154744735326209
+        },
+        "Technical Metrics": {
+          "System Stability": 0.2274248150182738,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8504517293445293,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.4222993731500614
+      },
+      "6": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.7530412980397413,
+          "Zone Change Stability": 0.7692307692307692,
+          "Exemption Fairness": 0.4
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.6,
+          "Ranking Volatility": 0.2074074074074074,
+          "Exemption Usage": 0.2
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.8112152777777779,
+          "Time Evolution Impact": 0.10535335890338501
+        },
+        "Technical Metrics": {
+          "System Stability": 0.21086338692125833,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.7161167979168204,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.5444743815330725
+      },
+      "7": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.6178056157650178,
+          "Zone Change Stability": 0.8,
+          "Exemption Fairness": 0.3
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 1.0,
+          "Ranking Volatility": 0.2611111111111111,
+          "Exemption Usage": 0.3
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.6465122936135447,
+          "Time Evolution Impact": 0.0687663048558507
+        },
+        "Technical Metrics": {
+          "System Stability": 0.21789704264097895,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.805986814951877,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.5481799655421892
+      },
+      "8": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.7391176105718906,
+          "Zone Change Stability": 0.9230769230769231,
+          "Exemption Fairness": 0.2
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.4,
+          "Ranking Volatility": 0.16111111111111112,
+          "Exemption Usage": 0.1
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.48591049382716056,
+          "Time Evolution Impact": 0.03803851974565714
+        },
+        "Technical Metrics": {
+          "System Stability": 0.23481092130330808,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.7881044413236757,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.4635294270641147
+      },
+      "9": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.6415823161955339,
+          "Zone Change Stability": 0.4285714285714286,
+          "Exemption Fairness": 0.2
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.2,
+          "Ranking Volatility": 0.3,
+          "Exemption Usage": 0.2
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.3390895061728395,
+          "Time Evolution Impact": 0.05278628565488913
+        },
+        "Technical Metrics": {
+          "System Stability": 0.31684390848220084,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8422203496764474,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.3949116244897656
+      },
+      "10": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.9275338652827518,
+          "Zone Change Stability": 1.0,
+          "Exemption Fairness": 0.2
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.2,
+          "Ranking Volatility": 0.15,
+          "Exemption Usage": 0.2
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.5387191358024692,
+          "Time Evolution Impact": 0.02481299858072728
+        },
+        "Technical Metrics": {
+          "System Stability": 0.1974216605995987,
+          "Model Complexity": 0.8,
+          "Interpretability": 0.75,
+          "Transparency": 0.7
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.7486348617437577,
+          "Time Weight Coverage": 1.2,
+          "Model Robustness": 0.85
+        },
+        "Overall Score": 0.48350160689928995
+      }
+    },
+    "Optimized Current System": {
+      "1": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.5785784171049962,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.0,
+          "Ranking Volatility": 0.044444444444444446,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.18937597852850277,
+          "Time Evolution Impact": 0.08789559885572752
+        },
+        "Technical Metrics": {
+          "System Stability": 0.21654669944356342,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8688887621793656,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.2930971188126334
+      },
+      "2": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.4340274840882403,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.4,
+          "Ranking Volatility": 0.5333333333333333,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.3828395061728395,
+          "Time Evolution Impact": 0.10375265750063263
+        },
+        "Technical Metrics": {
+          "System Stability": 0.2820062372256581,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.7957699112260658,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.3780803662839628
+      },
+      "3": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.9573689038001039,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.4,
+          "Ranking Volatility": 0.15555555555555553,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.23524180881469303,
+          "Time Evolution Impact": 0.08357292575225575
+        },
+        "Technical Metrics": {
+          "System Stability": 0.1649660883117763,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8809807216928491,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.377875204761398
+      },
+      "4": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.7212938650305984,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.2,
+          "Ranking Volatility": 0.26296296296296295,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.21445445050552503,
+          "Time Evolution Impact": 0.0813012227216142
+        },
+        "Technical Metrics": {
+          "System Stability": 0.24553550746671088,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8843443691756008,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.34579562589588697
+      },
+      "5": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.6922410239405067,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.2,
+          "Ranking Volatility": 0.3833333333333333,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.2509413580246914,
+          "Time Evolution Impact": 0.12154744735326209
+        },
+        "Technical Metrics": {
+          "System Stability": 0.2274248150182738,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8504517293445293,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.3609303255310138
+      },
+      "6": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.6499192623150722,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.2,
+          "Ranking Volatility": 0.17407407407407408,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.40243827160493817,
+          "Time Evolution Impact": 0.08898998666316343
+        },
+        "Technical Metrics": {
+          "System Stability": 0.21793201575108562,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8083921293207583,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.35248800272566183
+      },
+      "7": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.6178056157650178,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.0,
+          "Ranking Volatility": 0.2611111111111111,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.6465122936135447,
+          "Time Evolution Impact": 0.0687663048558507
+        },
+        "Technical Metrics": {
+          "System Stability": 0.21789704264097895,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.805986814951877,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.36776329887552256
+      },
+      "8": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.7391176105718906,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.2,
+          "Ranking Volatility": 0.14444444444444446,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.48591049382716056,
+          "Time Evolution Impact": 0.03803851974565714
+        },
+        "Technical Metrics": {
+          "System Stability": 0.23481092130330808,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.7881044413236757,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.36274951253420024
+      },
+      "9": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.6415823161955339,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.0,
+          "Ranking Volatility": 0.15,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.3390895061728395,
+          "Time Evolution Impact": 0.05278628565488913
+        },
+        "Technical Metrics": {
+          "System Stability": 0.31684390848220084,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.8422203496764474,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.32413781496595606
+      },
+      "10": {
+        "Fairness Metrics": {
+          "Judge-Fan Correlation": 0.9275338652827518,
+          "Zone Change Stability": 0.5,
+          "Exemption Fairness": 0.0
+        },
+        "Entertainment Metrics": {
+          "Surprise Eliminations": 0.4,
+          "Ranking Volatility": 0.39999999999999997,
+          "Exemption Usage": 0.0
+        },
+        "Participation Metrics": {
+          "Voting Impact Variance": 0.5387191358024692,
+          "Time Evolution Impact": 0.02481299858072728
+        },
+        "Technical Metrics": {
+          "System Stability": 0.1974216605995987,
+          "Model Complexity": 0.7,
+          "Interpretability": 0.8,
+          "Transparency": 0.6
+        },
+        "Model Performance Metrics": {
+          "RCV Convergence": 0.7486348617437577,
+          "Time Weight Coverage": 1.0,
+          "Model Robustness": 0.8
+        },
+        "Overall Score": 0.42225160689929
+      }
+    }
+  }
+}
