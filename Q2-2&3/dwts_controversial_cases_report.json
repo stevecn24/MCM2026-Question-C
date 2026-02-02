@@ -1,0 +1,160 @@
+{
+  "case_studies": [
+    {
+      "name": "Jerry Rice",
+      "season": 2,
+      "total_weeks": 8,
+      "avg_judge_score": 180.16660000000002,
+      "avg_fan_vote": 0.2896027748276201,
+      "min_judge_score": 180.16660000000002,
+      "max_judge_score": 180.16660000000002,
+      "min_fan_vote": 0.101814942861773,
+      "max_fan_vote": 0.626152777508292,
+      "judge_rank_percentile": 0.5625,
+      "fan_rank_percentile": 0.5625,
+      "divergence_score": 0.0,
+      "weeks_with_lowest_score": 0,
+      "final_result": "2nd Place",
+      "voting_method_analysis": {
+        "rank_method": {
+          "total_weeks": 0,
+          "elimination_risk_weeks": 0,
+          "elimination_probability": 0,
+          "weekly_details": []
+        },
+        "percent_method": {
+          "total_weeks": 0,
+          "elimination_risk_weeks": 0,
+          "elimination_probability": 0,
+          "weekly_details": []
+        }
+      },
+      "judge_save_analysis": {
+        "would_be_eliminated_earlier": true,
+        "elimination_week_change": "8",
+        "reasoning": "在第8周，选手在最后两名中且评委分数较低，会被评委淘汰"
+      }
+    },
+    {
+      "name": "Billy Ray Cyrus",
+      "season": 4,
+      "total_weeks": 8,
+      "avg_judge_score": 152.0,
+      "avg_fan_vote": 0.18557200208570157,
+      "min_judge_score": 152.0,
+      "max_judge_score": 152.0,
+      "min_fan_vote": 0.0845740068973084,
+      "max_fan_vote": 0.342426905469829,
+      "judge_rank_percentile": 0.5625,
+      "fan_rank_percentile": 0.5625,
+      "divergence_score": 0.0,
+      "weeks_with_lowest_score": 0,
+      "final_result": "Eliminated Week 8",
+      "voting_method_analysis": {
+        "rank_method": {
+          "total_weeks": 0,
+          "elimination_risk_weeks": 0,
+          "elimination_probability": 0,
+          "weekly_details": []
+        },
+        "percent_method": {
+          "total_weeks": 0,
+          "elimination_risk_weeks": 0,
+          "elimination_probability": 0,
+          "weekly_details": []
+        }
+      },
+      "judge_save_analysis": {
+        "would_be_eliminated_earlier": true,
+        "elimination_week_change": null,
+        "reasoning": ""
+      }
+    },
+    {
+      "name": "Bristol Palin",
+      "season": 11,
+      "total_weeks": 10,
+      "avg_judge_score": 229.1664,
+      "avg_fan_vote": 0.15776577217615131,
+      "min_judge_score": 229.1664,
+      "max_judge_score": 229.1664,
+      "min_fan_vote": 0.080505840937565,
+      "max_fan_vote": 0.309202429964304,
+      "judge_rank_percentile": 0.55,
+      "fan_rank_percentile": 0.55,
+      "divergence_score": 0.0,
+      "weeks_with_lowest_score": 0,
+      "final_result": "3rd Place",
+      "voting_method_analysis": {
+        "rank_method": {
+          "total_weeks": 0,
+          "elimination_risk_weeks": 0,
+          "elimination_probability": 0,
+          "weekly_details": []
+        },
+        "percent_method": {
+          "total_weeks": 0,
+          "elimination_risk_weeks": 0,
+          "elimination_probability": 0,
+          "weekly_details": []
+        }
+      },
+      "judge_save_analysis": {
+        "would_be_eliminated_earlier": true,
+        "elimination_week_change": "9",
+        "reasoning": "在第9周，选手在最后两名中且评委分数较低，会被评委淘汰"
+      }
+    },
+    {
+      "name": "Bobby Bones",
+      "season": 27,
+      "total_weeks": 9,
+      "avg_judge_score": 201.5,
+      "avg_fan_vote": 0.18973653664827642,
+      "min_judge_score": 201.5,
+      "max_judge_score": 201.5,
+      "min_fan_vote": 0.0775098892959158,
+      "max_fan_vote": 0.435720269743543,
+      "judge_rank_percentile": 0.5555555555555556,
+      "fan_rank_percentile": 0.5555555555555556,
+      "divergence_score": 0.0,
+      "weeks_with_lowest_score": 0,
+      "final_result": "1st Place",
+      "voting_method_analysis": {
+        "rank_method": {
+          "total_weeks": 0,
+          "elimination_risk_weeks": 0,
+          "elimination_probability": 0,
+          "weekly_details": []
+        },
+        "percent_method": {
+          "total_weeks": 0,
+          "elimination_risk_weeks": 0,
+          "elimination_probability": 0,
+          "weekly_details": []
+        }
+      },
+      "judge_save_analysis": {
+        "would_be_eliminated_earlier": true,
+        "elimination_week_change": "9",
+        "reasoning": "在第9周，选手在最后两名中且评委分数较低，会被评委淘汰"
+      }
+    }
+  ],
+  "key_insights": [
+    "Jerry Rice: 两种投票方式淘汰概率相同(0%)",
+    "Billy Ray Cyrus: 两种投票方式淘汰概率相同(0%)",
+    "Bristol Palin: 两种投票方式淘汰概率相同(0%)",
+    "Bobby Bones: 两种投票方式淘汰概率相同(0%)"
+  ],
+  "judge_save_summary": {
+    "affected_cases": 4,
+    "total_cases": 4,
+    "impact_percentage": 100.0
+  },
+  "recommendations": [
+    "两种投票方式对争议案例的影响相似，没有明显优劣。",
+    "评委拯救环节会影响4/4个争议案例的结果。这会显著减少争议结果，但可能过度削弱粉丝投票的影响力。建议仅在特殊情况下使用，如决赛或半决赛。",
+    "综合建议：\n1. 对于追求娱乐性和粉丝参与度的节目，建议使用排名制，给予粉丝投票更大权重。\n2. 对于强调舞蹈专业性的节目，建议使用百分比制，给予评委评分更大权重。\n3. 评委拯救环节应作为补充机制，而非主要淘汰方式，以保持比赛的公平性和可预测性。\n4. 考虑使用混合系统：常规赛使用一种方法，决赛使用另一种方法或引入评委拯救。"
+  ]
+}
